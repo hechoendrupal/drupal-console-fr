@@ -42,7 +42,7 @@ Si voulez contribuer à cette traduction, vous devez suivre ces étapes
 
 - Faire un fork de ce répertoire en suivant ce lien [https://github.com/hechoendrupal/drupal-console-fr#fork-destination-box](https://github.com/hechoendrupal/drupal-console-fr#fork-destination-box)
 - Cloner le répertoire du fork sur votre machine en local
-- Set up upstream
+- Configurer le upstream
 
 Afin d'être à jour avec d'autres contributions vous devez configurer une connexion avec le répertoire principal en utilisant les commandes git suivantes
 
