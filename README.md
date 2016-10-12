@@ -74,7 +74,7 @@ $ composer require drupal/console-fr
 
 ### Install Drupal Console
 
-To install the appropriate version of Drupal Console prohect for your drupal installation, run the following composer command
+To install the appropriate version of Drupal Console project for your drupal installation, run the following composer command
 
 ```
 $ composer require drupal/console:~1.0 --prefer-dist --optimize-autoloader
