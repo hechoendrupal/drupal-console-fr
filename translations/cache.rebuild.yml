@@ -4,7 +4,7 @@ options:
 messages:
     welcome: 'Bienvenue sur la commande cache:rebuild'
     rebuild: 'Reconstruction du/des cache(s), veuillez patienter.'
-    completed: 'Reconstruction des caches terminées'
+    completed: 'Reconstruction des caches terminée'
     invalid_cache: 'Le cache "%s" n''est pas valide.'
 questions:
     cache: 'Sélectionner un cache.'
@@ -14,4 +14,4 @@ examples:
         execution: 'drupal cr all'
     -
         description: 'Reconstruire le cache "discovery"'
-        execution: 'drupal cr discovery'
+        execution: 'drupal cr discovery' 
