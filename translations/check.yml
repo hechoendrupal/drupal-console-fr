@@ -1,3 +1,4 @@
+
 description: 'Vérificateur de configuration minimale système'
 messages:
     php_invalid: 'La version actuelle installée "%s" est invalide, "%s" ou plus est nécessaire'
