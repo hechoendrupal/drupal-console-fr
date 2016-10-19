@@ -1,8 +1,8 @@
-description: 'Vérificateur de configuration minimale système'
+description: 'V√©rificateur de configuration minimale syst√®me'
 messages:
-    php_invalid: 'La version actuelle installée "%s" est invalide, "%s" ou plus est nécessaire'
+    php_invalid: 'La version actuelle install√©e "%s" est invalide, "%s" ou plus est n√©cessaire'
     configuration_missing: 'La configuration "%s" est manquante.'
-    configuration_overwritten: 'La configuration "%s" est manquante et a été remplacée par "%s".'
+    configuration_overwritten: 'La configuration "%s" est manquante et a √©t√© remplac√©e par "%s".'
     extension_missing: 'L''extension "%s" est manquante.'
-    extension_recommended: 'L''installation de l''extension "%s" est recommandée.'
-    success: 'Vérification réussie.'
+    extension_recommended: 'L''installation de l''extension "%s" est recommand√©e.'
+    success: 'V√©rification r√©ussie.'

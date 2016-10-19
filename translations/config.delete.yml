@@ -3,16 +3,16 @@ arguments:
     type: 'Configuration type.'
     name: 'Nom de la configuration'
 messages:
-    all: 'All configuration sucessfully deleted.'
+    all: 'Toute la configuration a été supprmiée avec succès.'
     deleted: 'La configuration "%s" a été supprimée.'
     name: 'Le nom de la configuration ne peut pas être vide.'
-    not-exists: 'La configuration "%s" n''existe pas.'
+    not-exists: 'La configuration "%s" n'''existe pas.'
 errors:
-    config-storage: 'Configuration type would not be loaded.'
-    name: 'Configuration name must contain a value.'
+    config-storage: 'Le type de coniguration ne serait pas chargé.'
+    name: 'Le nom de la configuration doit contenir une valeur.'
     type: 'Configuration type is missing.'
-    not-exists: 'The configuration "%s" does not exists.'
+    not-exists: 'La configuration "%s" n''existe pas.'
 warnings:
-    undo: 'This action will delete all configuration permanentaly.'
+    undo: 'Cette action supprimera toute la configuration de manière définitive.'
 questions:
-    sure: 'Are you sure to delete all configuration'
+    sure: 'Êtes-vous sûr(e) de vouloir supprimer toute la configuration'
