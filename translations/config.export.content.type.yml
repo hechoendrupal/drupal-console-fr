@@ -4,7 +4,7 @@ arguments:
     content_type: 'Le type de contenu à exporter'
 questions:
     content-type: 'Le type de contenu à exporter'
-    optional-config: 'Export le type de contenu dans un module comme configuration optionnelle'
+    optional-config: 'Export du type de contenu dans un module comme configuration optionnelle'
     content_type: 'Le type de contenu à exporter'
 messages:
     content_type_exported: 'Export du type de contenu'
