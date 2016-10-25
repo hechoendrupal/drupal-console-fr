@@ -1,8 +1,8 @@
-description: 'Execute an external command.'
+description: 'Exécute une commande externe.'
 arguments:
-  bin: 'Executable name.'
+  bin: 'Nom de l''exécutable.'
 messages:
-  success: 'Executed the command.'
-  invalid-bin: 'Error executing the command.'
-  missing-bin: 'Provide a executable.'
+  success: 'La commande a été exécutée.'
+  invalid-bin: 'L''exécution de la commande a échouée.'
+  missing-bin: 'Entrez le nom d''un exécutable.'
 
