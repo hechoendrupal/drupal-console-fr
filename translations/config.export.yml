@@ -1,10 +1,10 @@
 description: 'Exporter la configuration actuelle de l''application.'
 arguments:
     directory: 'Définit le répertoire de sauvegarde de la configuration.'
-    tar: 'If set, the configuration will be exported to an archive file.'
+    tar: 'Si précisé, la configuration sera exportée dans un fichier d''archive.'
 messages:
     directory: 'Votre exportation de configuration a été sauvegardée dans "%s"'
-    error: 'An error occurred while creating your directory at "%s"'
+    error: 'Une erreur s''est produite lors de la création de votre dossier dans "%s"'
 content:
     type:
         description: 'Exporte un type de contenu ainsi que ses champs.'

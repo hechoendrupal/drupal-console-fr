@@ -1,10 +1,10 @@
 description: 'Surcharge la valeur d''une configuration dans la configuration active.'
 questions:
-    name: 'Enter configuration name'
-    key: 'Enter the configuration key'
-    value: 'Enter the configuration value'
+    name: 'Entrez le nom de la configuration'
+    key: 'Entrez la clé de configuration'
+    value: 'Entrez la valeur de la configuration'
 arguments:
-    name: 'Configuration name'
+    name: 'Nom de la configuration'
     key: Clé
     value: Valeur
     config-name: 'Nom de la configuration.'
@@ -13,7 +13,7 @@ messages:
     configuration-key: 'Clé de la configuration'
     original: 'Valeur originale'
     updated: 'Nouvelle valeur'
-    invalid-name: 'Config object "%s", does not exists'
+    invalid-name: 'L'objet Config "%s", n''existe pas'
 examples:
     -
         description: 'Définir la valeur de "flood" du module Contact à 10.'

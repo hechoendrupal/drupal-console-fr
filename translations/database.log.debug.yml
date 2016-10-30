@@ -1,19 +1,19 @@
-description: 'Display current log events for the application'
+description: 'Affiche les entrées courantes du journal pour l''application'
 arguments:
     event-id: 'DBLog event ID'
 options:
-    type: 'Filter events by a specific type'
-    severity: 'Filter events by a specific level of severity'
-    user-id: 'Filter events by a specific user id'
-    asc: 'List events in ascending order'
-    limit: 'Limit results to a specific number'
-    offset: 'Starting point of a limit'
+    type: 'Filtrer les événements selon un type spécifique'
+    severity: 'Filtrer les événements selon un niveau spécifique de sévérité'
+    user-id: 'Filtrer les événements selon un user id spécifique'
+    asc: 'Lister les événements par ordre ascendant'
+    limit: 'Limiter les résultats à un nombre spécifique'
+    offset: 'Point de départ d''une limite'
 messages:
     event-id: 'Event ID'
     type: Type
     date: Date
     message: Message
-    user: User
-    severity: Severity
-    invalid-severity: 'Severity type is invalid, filter was ignored'
-    not-found: 'DBLog event "%s" wasn''t found'
+    user: Utilisateur
+    severity: Sévérité
+    invalid-severity: 'Le type de sévérité est invalide, le filtre a été ignoré'
+    not-found: 'L''événement du DBLog "%s" n''a pas été trouvé'

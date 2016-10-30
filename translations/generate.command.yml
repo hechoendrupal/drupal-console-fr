@@ -3,19 +3,19 @@ help: 'la commande <info>generate:command</info> vous permet de générer une no
 welcome: 'Bienvenue dans le générateur de commande Drupal'
 options:
     module: common.options.module
-    controller-title: 'Controller title'
+    controller-title: 'Titre du contrôleur'
     class: 'Nom de la classe de la commande'
-    name: 'The Command name.'
-    container-aware: 'Is the command aware of the drupal site installation when executed'
+    name: 'Le nom de la commande.'
+    container-aware: 'Est-ce que la commande est à l''écoute de l''installation drupal lorsqu''elle est exécutée'
     command: 'Nom de la commande'
-    container: 'Access the services container'
+    container: 'Accéder au conteneur de services'
 questions:
     module: common.questions.module
-    class: 'Veuillez renseigner le nom de pour la classe de la commande'
+    class: 'Veuillez renseigner le nom de la classe de la commande'
     name: 'Entrer le nom de la commande'
-    container-aware: 'Is the command aware of the drupal site installation when executed?.'
+    container-aware: 'Est-ce que la commande est à l''écoute de l''installation drupal lorsqu''elle est exécutée ?'
     command: 'Veuillez renseigner le nom de la commande'
-    container: 'Avez-vous besoin accéder au conteneur de services'
-    controller-title: 'Controller title'
+    container: 'Avez-vous besoin d''accéder au conteneur de services'
+    controller-title: 'Titre du contrôleur'
 messages:
-    title-not-empty: 'Le titre ne peut pas être vide'
+    title-not-empty: 'Le titre ne peut pas être vide' 

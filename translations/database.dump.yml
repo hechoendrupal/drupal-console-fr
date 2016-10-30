@@ -4,4 +4,4 @@ arguments:
 options:
     file: 'Le nom du fichier pour votre sauvegarde de base de données'
 messages:
-    success: 'Database exportée vers :'
+    success: 'Base de données exportée vers :'
