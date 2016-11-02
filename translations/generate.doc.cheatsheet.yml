@@ -1,18 +1,18 @@
-description: 'Generate a printable cheatsheet for Commands'
+description: 'Générer une Antisèche imprimable des Commandes'
 options:
-    path: 'The path to generate the pdf for the documentation'
-    wkhtmltopdf: 'The path for the wkhtmltopdf binary in your system'
+    path: 'Le chemin où générer le pdf de documentation'
+    wkhtmltopdf: 'Le chemin vers le fichier binaire de la librairie wkhtmltopdf dans votre système'
 messages:
-    missing_path: 'The path is missing'
-    title: 'Drupal Console Cheatsheet'
+    missing_path: 'Le chemin est manquant'
+    title: 'L''Antisèche de Drupal Console'
     note: Note
-    note-description: 'Drupal Console commands *must* be run from the root of a Drupal 8 installation'
-    command: 'Drupal Console Command'
+    note-description: 'Les commandes Drupal Console *doivent* être lancées depuis la racine d'une installation Drupal 8'
+    command: 'Commande Drupal Console'
     command_description: 'The **"%s"** command "%s"'
     usage: Usage
-    options: 'Available options'
+    options: 'Options disponibles'
     option: Option
-    details: Details
-    arguments: 'Available arguments'
+    details: Détails
+    arguments: 'Arguments disponibles'
     argument: Argument
-    examples: Examples
+    examples: Exemples
