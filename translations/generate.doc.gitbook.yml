@@ -1,31 +1,31 @@
-description: 'Generate documentations for Commands'
+description: 'Générer des documentations de Commandes'
 options:
-    path: 'The path to render the documentation'
+    path: 'Le chemin où générer la documentation'
 messages:
-    missing_path: 'The path is missing'
-    title: 'Available Drupal Console Commands'
+    missing_path: 'Le chemin est manquant'
+    title: 'Commandes Drupal Console disponibles'
     note: Note
-    note-description: 'Drupal Console commands *must* be run from the root of a Drupal 8 installation'
-    command: 'Drupal Console Command'
+    note-description: 'Les commandes Drupal Console *doivent* être lancées depuis la racine d''une installation Drupal 8'
+    command: 'Commande Drupal Console'
     command_description: 'The **"%s"** command "%s"'
     usage: Usage
-    options: 'Available options'
+    options: 'Options disponibles'
     option: Option
-    details: Details
-    arguments: 'Available arguments'
+    details: Détails
+    arguments: 'Arguments disponibles'
     argument: Argument
-    examples: Examples
+    examples: Exemples
 output:
     available-commands:
-        title: 'Available Drupal Console Commands'
+        title: 'Commandes Drupal Console disponibles'
         note: Note
-        note-description: 'Drupal Console commands *must* be run from the root of a Drupal 8 installation'
-        command: 'Drupal Console Command'
+        note-description: 'Les commandes Drupal Console *doivent* être lancées depuis la racine d''une installation Drupal 8'
+        command: 'Commande Drupal Console'
     command:
         command_description: 'The **"%s"** command "%s"'
         usage: Usage
-        options: 'Available options'
+        options: 'Options disponibles'
         option: Option
-        details: Details
-        arguments: 'Available arguments'
+        details: Détails
+        arguments: 'Arguments disponibles'
         argument: Argument
