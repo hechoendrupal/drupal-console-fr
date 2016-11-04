@@ -1,10 +1,10 @@
-description: 'Afficher les items de configuration qui sont différents dans la configuration active en comparaison à un répertoire.'
+description: 'Afficher les items de configuration qui sont différents dans la configuration active en comparant à un dossier.'
 arguments:
-    directory: 'Le répertoire sur lequel appliquer le diff. S''il n''est pas renseigné, choisir dans les répertoires de config de Drupal.'
+    directory: 'Le dossier sur lequel appliquer le diff. S''il n''est pas renseigné, choisir dans les répertoires de config de Drupal.'
 options:
     reverse: 'Voir les changements à l''envers (i.e diff d''un répertoire vers la configuration active).'
 questions:
-    directories: 'répertoire de Config :'
+    directories: 'dossier de Configuration :'
 table:
     headers:
         collection: Collection

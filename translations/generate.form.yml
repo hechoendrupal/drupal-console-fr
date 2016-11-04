@@ -7,17 +7,17 @@ options:
     form-id: 'l''ID du formulaire'
     services: common.options.services
     inputs: common.options.inputs
-    path: 'Enter the form path'
-    routing: 'Generate routing'
+    path: 'Entrez le chemin du formulaire'
+    routing: 'Générer le routage'
 questions:
     module: common.questions.module
-    class: 'Entrez le nom de la classe du formulair'
+    class: 'Entrez le nom de la classe du formulaire'
     form-id: 'Entrez l''id du formulaire'
     services: common.questions.services
     inputs: common.questions.inputs
-    routing: 'Would you like to register a route for this form'
-    menu_link_gen: 'Generate a menu link'
-    menu_link_title: 'A title for the menu link'
+    routing: 'Voulez-vous enregistrer une route pour ce formulaire'
+    menu_link_gen: 'Générer un lien de menu'
+    menu_link_title: 'Un titre pour le lien de menu'
     menu_parent: 'Menu parent'
-    menu_link_desc: 'A description for the menu link'
-    path: 'Enter the route path'
+    menu_link_desc: 'Une description du lien de menu'
+    path: 'Entrez le chemin de la route'

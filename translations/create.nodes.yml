@@ -11,7 +11,7 @@ questions:
     content-type: 'Sélectionnez le(s) type(s) de contenu à utiliser lors de la génération des nodes'
     limit: 'Entrez le nombre de nodes que vous souhaitez générer'
     title-words: 'Entrez le nombre maximums de mots que doivent contenir les titres'
-    time-range: 'Quel doit être l''age maximum des nodes générées?'
+    time-range: 'Quel doit être l''âge maximum des nodes générées ?'
     time-ranges:
         - Maintenant
         - 'Une heure'

@@ -8,7 +8,7 @@ messages:
     note: Note
     note-description: 'Les commandes Drupal Console *doivent* être lancées depuis la racine d'une installation Drupal 8'
     command: 'Commande Drupal Console'
-    command_description: 'The **"%s"** command "%s"'
+    command_description: 'La commande **"%s"** "%s"'
     usage: Usage
     options: 'Options disponibles'
     option: Option

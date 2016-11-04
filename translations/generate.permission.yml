@@ -7,5 +7,5 @@ questions:
     permission: 'Entrez une permission'
     title: 'Entrez un titre pour la permission'
     description: 'Entrez la description de la permission'
-    restrict-access: 'Restraindre l''accès'
+    restrict-access: 'Restreindre l''accès'
     add: 'Voulez-vous ajouter une autre permission ?'

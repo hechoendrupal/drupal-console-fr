@@ -1,5 +1,5 @@
 description: 'Affiche le contexte de cache courant pour l''application.'
 messages:
-    code: 'Context ID'
+    code: 'ID du contexte'
     label: 'Label'
-    class: 'Chemin de la Class'
+    class: 'Chemin de la Classe'

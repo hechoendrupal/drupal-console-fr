@@ -1,4 +1,4 @@
-description: 'Lancer une base de donnée client si disponible'
+description: 'Lancer une base de données client si disponible'
 arguments:
     database: 'Clé de la base de données depuis settings.php'
 messages:

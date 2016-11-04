@@ -1,4 +1,4 @@
-description: 'Generate breakpoint'
+description: 'Générer un breakpoint'
 help: 'La commande <info>generate:theme</info> permet de générer un nouveau breakpoint'
 welcome: 'Bienvenue sur le générateur de breakpoints de Drupal'
 options:

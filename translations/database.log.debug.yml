@@ -1,6 +1,6 @@
 description: 'Affiche les entrées courantes du journal pour l''application'
 arguments:
-    event-id: 'DBLog event ID'
+    event-id: 'ID de l''événement du DBLog'
 options:
     type: 'Filtrer les événements selon un type spécifique'
     severity: 'Filtrer les événements selon un niveau spécifique de sévérité'
@@ -9,7 +9,7 @@ options:
     limit: 'Limiter les résultats à un nombre spécifique'
     offset: 'Point de départ d''une limite'
 messages:
-    event-id: 'Event ID'
+    event-id: 'ID de l''événement'
     type: Type
     date: Date
     message: Message
