@@ -1,9 +1,9 @@
-description: 'Generate an implementation of hook_form_alter() or hook_form_FORM_ID_alter'
-help: 'The <info>"%s"</info> command helps you generate a new "%s"'
+description: 'Générer une implémentation de hook_form_alter() ou de hook_form_FORM_ID_alter'
+help: 'La commande <info>"%s"</info> permet de générer un nouveau "%s"'
 options:
-    form-id: 'Form ID to alter'
+    form-id: 'Form ID à altérer'
 messages:
-    inputs: "You can add form fields to modify form.\nThis is optional, press <info>enter</info> to <info>continue</info>"
-    loading-forms: 'Loading forms definition from Webprofiler module'
-    hide-form-elements: 'Optionally you can select form items for hide'
-    help-already-implemented: 'The hook form alter was already implemented in module "%s"'
+    inputs: "Vous pouvez ajouter des champs de formulaire pour modifier le formulaire.\nC''est optionnel, pressez <info>Entrée</info> pour <info>continuer</info>"
+    loading-forms: 'Charger des définitions de formulaires depuis le module Webprofiler'
+    hide-form-elements: 'Optionnellement vous pouvez sélectionner des items de formulaires à cacher'
+    help-already-implemented: 'Le hook form alter a déjà été implémenté dans le module "%s"'

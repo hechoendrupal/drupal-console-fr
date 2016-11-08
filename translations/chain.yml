@@ -2,12 +2,12 @@ description: 'Séquence d''exécution de commandes'
 options:
     file: 'Fichier utilisateur contenant les commandes à être exécutées.'
 questions:
-    chain-file: 'Select chain file to execute'
+    chain-file: 'Sélectionnez le fichier chain à exécuter'
 messages:
     missing_file: 'Vous devez fournir un chemin et nom de fichier valide.'
     invalid_file: 'Le fichier "%s" n''existe pas.'
     module_install: 'La commande module:install ne peut être lancé dans une séquence et doit être lancée indépendamment.'
-    missing-environment-placeholders: 'Missing environment placeholder(s) "%s"'
-    set-environment-placeholders: 'Set environment placeholders as:'
-    missing-inline-placeholders: 'Missing inline placeholder(s) "%s"'
-    set-inline-placeholders: 'Pass inline placeholders as:'
+    missing-environment-placeholders: 'Il manque le(s) placeholder(s) de l''environnement "%s"'
+    set-environment-placeholders: 'Renseignez les placeholders de l''environnement :'
+    missing-inline-placeholders: 'Il manque le(s) placeholder(s) en ligne "%s"'
+    set-inline-placeholders: 'Renseignez les placeholders inline :'
