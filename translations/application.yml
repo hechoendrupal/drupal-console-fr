@@ -34,7 +34,7 @@ messages:
     autocomplete: "Bash ou Zsh : Ajouter cette ligne à votre fichier de configuration :\n<info>source \"$HOME/.console/console.rc\" 2>/dev/null</info>\n\nFish : Créez un lien symbolique \n<info>ln -s ~/.console/drupal.fish ~/.config/fish/completions/drupal.fish</info>\n"
     version: '<info>"%s"</info> version <comment>"%s"</comment>'
 errors:
-    invalid-command: 'La commande "%s" n''existe pas.'
+    invalid-command: 'La commande "%s" n''est pas un nom de commande valide.'
 site:
     messages:
         path: 'Chemin du site'
