@@ -1,19 +1,19 @@
-description: 'Générer service'
-help: 'Le <info> générer: Service </ info> commande aide à générer un nouveau service.'
-welcome: 'Bienvenue sur le générateur de services Drupal'
+description: 'Générer un service'
+help: 'La commande <info>generate:service</info> permet de générer un nouveau service.'
+welcome: 'Bienvenue sur le générateur de services de Drupal'
 options:
     module: common.options.module
     service-name: 'Le nom du service'
     class: 'Nom de la classe'
     interface: Interface
     services: common.questions.services
-    path: Path
+    path: Chemin
 questions:
     module: common.questions.module
     service-name: 'Entrez le nom du service'
     class: 'Entrez le nom de la classe'
-    interface: 'Create an interface'
+    interface: 'Créez une interface'
     services: common.options.services
-    path: 'Enter the path for the services'
+    path: 'Entrez le chemin des services'
 messages:
-    service-already-taken: 'The service name has been already taken in module "%s"'
+    service-already-taken: 'Le nom du service a déjà été utilisé dans le module "%s"'

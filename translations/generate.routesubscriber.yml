@@ -1,11 +1,11 @@
-description: 'Generate a RouteSubscriber'
-help: 'The <info>generate:service</info> command helps you generate a new RouteSubscriber.'
-welcome: 'Welcome to the Drupal RouteSubscriber generator.'
+description: 'Générer un RouteSubscriber'
+help: 'La commande <info>generate:service</info> permet de générer un nouveau RouteSubscriber.'
+welcome: 'Bienvenue sur le générateur de RouteSubscriber de Drupal.'
 options:
     module: common.options.module
-    name: 'Service name'
-    class: 'Class name'
+    name: 'Nom du service'
+    class: 'Nom de la classe'
 questions:
     module: common.questions.module
-    name: 'Enter the service name'
-    class: 'Enter the Class name'
+    name: 'Entrez le nom du service'
+    class: 'Entrez le nom de la classe'
