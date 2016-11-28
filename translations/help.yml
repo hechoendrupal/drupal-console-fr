@@ -1,10 +1,10 @@
-description: 'Displays help for a command'
-help: "The <info>%command.name%</info> command displays help for a given command:\n\n<info>php %command.full_name% list</info>\n\nYou can also output the help in other formats by using the <comment>--format</comment> option:\n\n<info>php %command.full_name% --format=xml list</info>\n\nTo display the list of available commands, please use the <info>list</info> command.\n"
+description: 'Affiche de l''aide pour une commande'
+help: "La commande <info>%command.name%</info> affiche de l''aide pour une commande donnée :\n\n<info>php %command.full_name% list</info>\n\nVous pouvez aussi afficher l''aide dans d''autre formats en utilisant l''option <comment>--format</comment> option:\n\n<info>php %command.full_name% --format=xml list</info>\n\nPour afficher la liste des commandes disponibles, merci d''utiliser la commande <info>list</info>.\n"
 arguments:
-    command_name: 'The command name'
+    command_name: 'Le nom de la commande'
 options:
-    xml: 'To output list as XML'
-    raw: 'To output raw command list'
-    format: 'The output format (txt, xml, json, or md)'
+    xml: 'Pour obtenir la liste en XML'
+    raw: 'Pour obtenir une liste de commandes brute'
+    format: 'Le format de sortie (txt, xml, json, or md)'
 messages:
-    deprecated: 'The <comment>--xml</comment> option was deprecated in version 2.7 and will be removed in version 3.0. Use the <comment>--format</comment> option instead'
+    deprecated: 'L''option <comment>--xml</comment> est obsolète dans la version 2.7 et sera retirée de la version 3.0. utiliser à la place l''option <comment>--format</comment>'

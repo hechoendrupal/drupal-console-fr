@@ -1,8 +1,8 @@
-description: 'Generate an implementation of hook_update_N()'
-help: 'The <info>"%s"</info> command helps you generate a hook update N "%s"'
+description: 'générer une implémentation de hook_update_N()'
+help: 'La commande <info>"%s"</info> vous permet de générer un hook update N "%s"'
 options:
-    update-n: 'Update Number'
+    update-n: 'Numéro de mise à jour'
 questions:
-    update-n: 'Please provide the Update N to be implemeted'
+    update-n: 'Merci d''entrer le N de mise à jour à implémenter'
 messages:
-    wrong-update-n: 'The update number "%s" is invalid'
+    wrong-update-n: 'Le numéro de mise à jour "%s" est invalide'
