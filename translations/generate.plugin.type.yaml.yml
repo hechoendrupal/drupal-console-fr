@@ -1,6 +1,6 @@
 description: 'Générer un plugin avec un mécanisme de découverte Yaml'
 help: 'La commande <info>generate:plugin:type:yaml</info>permet de générer un nouveau type de plugin qui utilise un mécanisme de découverte Yaml.'
-welcome: 'Welcome to the Drupal Plugin Type generator'
+welcome: 'Bienvenue sur le générateur de type de plugin de Drupal'
 options:
     module: common.options.module
     class: 'Nom de la classe du type de plugin'
