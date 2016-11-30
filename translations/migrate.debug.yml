@@ -1,8 +1,8 @@
-description: 'Display current migration available for the application'
+description: 'Affiche la migration actuelle disponible pour l''application'
 arguments:
-    tag: 'Migrate tag'
+    tag: 'Tag de migration'
 messages:
     id: 'Migration Id'
     description: Description
-    no-migrations: 'There aren''t migrations available try to execute command: migrate:setup:migrations'
+    no-migrations: 'Pas de migration disponible, essayez d''exécuter la commande : migrate:setup:migrations'
     tags: Tags
