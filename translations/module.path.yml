@@ -1,6 +1,6 @@
-description: 'Returns the relative path to the module (or absolute path)'
+description: 'Renvoie le chemin relatif vers le module (ou le chemin absolu)'
 arguments:
-    module: 'The Module name (machine name)'
+    module: 'Le nom du module (nom machine)'
 options:
-    absolute: 'Return module absolute path'
+    absolute: 'Renvoie le chemin absolu'
 messages: null
