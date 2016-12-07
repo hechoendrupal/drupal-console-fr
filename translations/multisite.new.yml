@@ -1,24 +1,24 @@
-description: "Sets up the files for a new multisite install."
-help: "The <info>multisite:new</info> command assists in setting up new multisite installs by creating the needed subdirectory and files, and can optionally copy an existing 'default' installation."
+description: "Prépare les fichiers pour une nouvelle installation multi-sites."
+help: "La commande <info>multisite:new</info> vous assiste dans la configuration d''une nouvelle installation multi-sites en créant les sous-dossiers et les fichiers requis. Cette commande permet optionnellement de copier une installation 'par défaut' existante."
 arguments:
-    sites-subdir: "Name of directory under 'sites' which should be created."
+    sites-subdir: "Nom du répertoire qui doit être créé dans 'sites'."
 options:
-    site-uri: "Site URI to add to sites.php."
-    copy-install: "Copies existing site from the default install."
+    site-uri: "URI du site à ajouter dans sites.php."
+    copy-install: "Copie un site existant depuis l''installation par défaut."
 errors:
-    subdir-empty: "You must specify a multisite subdirectory to create."
-    subdir-exists: 'The sites/"%s" directory already exists.'
-    default-missing: "The sites/default directory is missing."
-    mkdir-fail: 'Unable to create sites/"%s". Please check the sites directory permissions and try again.'
-    sites-invalid: "The sites.php file located is either not readable or not a file."
-    sites-missing: "No sites.php or example.sites.php to copy from."
-    sites-other: "A problem was encountered when attempting to write sites.php"
-    file-missing: 'The file "%s" was not found for copying.'
-    copy-fail: 'Unable to copy "%s" to "%s". Please check the permissions and try again.'
-    write-fail: 'Unable to write to the file "%s". Please check the file permissions and try again.'
-    chmod-fail: 'Unable to change permissions on the file "%s". Please ensure that the permissions on that file are correct.'
+    subdir-empty: "Vous devez spécifier un sous-dossier multi-sites à créer."
+    subdir-exists: 'Le répertoire sites/"%s" existe déjà.'
+    default-missing: "Le répertoire sites/default est introuvable."
+    mkdir-fail: 'Impossible de créer sites/"%s". Merci de vérifier les permissions du répertoire sites et d''essayer à nouveau.'
+    sites-invalid: "Le fichier sites.php est illisible ou bien n''est pas un fichier."
+    sites-missing: "Aucun fichier sites.php ou example.sites.php à copier."
+    sites-other: "Un problème est survenu lors de la tentative d''écriture sur le fichier sites.php"
+    file-missing: 'Le fichier à copier "%s" est introuvable.'
+    copy-fail: 'Impossible de copier "%s" dans "%s". Merci de vérifier les permissions et d''essayer à nouveau.'
+    write-fail: 'Impossible d''écrire dans le fichier "%s". Merci de vérifier les permissions du fichier et d''essayer à nouveau.'
+    chmod-fail: 'Impossible de modifier les permissions du fichier "%s". Merci de vous assurer que les permissions de ce fichier sont correctement configurées.'
 warnings:
-    missing-files: "No sites/default/files directory found. The files directory will need to be created by hand."
+    missing-files: "Pas de répertoire sites/default/files trouvé. Le répertoire files devra être créé à la main."
 messages:
-    copy-install: 'The default install was successfully copied to sites/"%s".'
-    fresh-site: 'The new multisite structure was successfully created at sites/"%s" and is ready for installation.'
+    copy-install: 'L''installation par défaut a été copiée avec succès dans sites/"%s".'
+    fresh-site: 'La nouvelle structure multi-sites a été créée avec succès dans sites/"%s" et prête pour l''installation.'
