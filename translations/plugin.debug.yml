@@ -1,14 +1,14 @@
-description: 'Display all plugin types, plugin instances of a specific type, or the definition for a specific plugin.'
-help: "List all plugin types:\n<info>drupal plugin:debug</info>\n\nList all instances of the image effect plugin type:\n<info>drupal plugin:debug image.effect</info>\n\nShow the definition for the image convert plugin:\n<info>drupal plugin:debug image.effect image_convert</info>\n\n<comment>NOTE: Only plugin types exposed through services are supported.</comment> When developing a custom plugin type, expose it as a service by adding it to modulename.services.yml with the name \"plugin.manager.PLUGIN_TYPE\".\n"
+description: 'Afficher tous les types de plugins, les instances de plugin d''un certain type, ou la définition d''un plugin spécifique.'
+help: "Lister tous les types de plugins:\n<info>drupal plugin:debug</info>\n\nLister toutes les instances du type plugin d''effet d''image :\n<info>drupal plugin:debug image.effect</info>\n\nAfficher la définition du plugin de conversion d''image :\n<info>drupal plugin:debug image.effect image_convert</info>\n\n<comment>NOTE: Seuls les types de plugins exposés via des services sont supportés.</comment> Lors du développement d''un type de plugin custom, exposez-le sous la forme d''un service en l''ajoutant dans nomdumodule.services.yml avec le nom \"plugin.manager.PLUGIN_TYPE\".\n"
 arguments:
-    type: 'Plugin type'
-    id: 'Plugin ID'
+    type: 'Type de plugin'
+    id: 'ID du plugin'
 errors:
-    plugin-type-not-found: 'Plugin type "%s" not found. No service available for that type.'
+    plugin-type-not-found: 'Type de plugin "%s" introuvable. Aucun service disponible pour ce type.'
 table-headers:
-    plugin-type-name: 'Plugin type'
-    plugin-type-class: 'Plugin manager class'
-    plugin-id: 'Plugin ID'
-    plugin-class: 'Plugin class'
-    definition-key: Key
-    definition-value: Value
+    plugin-type-name: 'Type de plugin'
+    plugin-type-class: 'Classe gérant le plugin'
+    plugin-id: 'ID du plugin'
+    plugin-class: 'Classe du plugin'
+    definition-key: Clé
+    definition-value: Valeur
