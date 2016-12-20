@@ -8,10 +8,10 @@ messages:
     label: Etiquette
     canonical_url: 'URL canonique'
     status: Statut
-    provider: Fournissuer
+    provider: Fournisseur
     enabled: Activé
     disabled: Désactivé
     rest-state: 'Etats Rest'
     supported-formats: 'Formats supportés'
-    supported_auth: 'Système d'authentification '
+    supported_auth: 'Systèmes d'authentification supportés'
     not-found: 'Ressource Rest "%s" introuvable'
