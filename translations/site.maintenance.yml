@@ -1,8 +1,8 @@
-description: 'Switch site into maintenance mode'
+description: 'Fait basculer le site en mode maintenance'
 arguments:
-    mode: 'Site maintenance mode'
+    mode: 'Mode maintenance du site'
 messages:
-    maintenance-on: 'Operating in maintenance mode on'
-    maintenance-off: 'Operating in maintenance mode off'
+    maintenance-on: 'Le mode maintenance du site est activé'
+    maintenance-off: 'Le mode maintenance du site est désactivé'
 errors:
-    invalid-mode: 'Invalid maintance mode'
+    invalid-mode: 'Le mode maintenance est invalide'
