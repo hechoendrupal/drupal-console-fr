@@ -1,27 +1,27 @@
-description: 'View current Drupal Installation status'
+description: 'Voir le statut actuel de l''installation Drupal'
 messages:
     application: Application
-    system: 'System Info'
+    system: 'Information du système'
     hash_salt: 'Hash salt'
-    console: 'Console version'
-    database: 'Database connection'
+    console: 'Version de Console'
+    database: 'Connexion de la base de données'
     driver: Driver
-    host: Host
+    host: Serveur
     port: Port
-    username: Username
-    password: Password
-    theme: Themes
-    connection: Connection
-    theme_default: 'Default theme'
-    theme_admin: 'Admin theme'
-    directory: Directories
-    directory_root: 'Site root directory'
-    directory_temporary: 'Site temporary directory'
-    directory_theme_default: 'Default theme directory'
-    directory_theme_admin: 'Admin theme directory'
-    current_version: 'Current Drupal version ("%s")'
-    not_installed: 'Drupal is not installed'
-    not_available: 'Not available'
+    username: Nom d''utilisateur
+    password: Mot de passe
+    theme: Thèmes
+    connection: Connexion
+    theme_default: 'Thème par défaut'
+    theme_admin: 'Thème d''administration'
+    directory: Dossiers
+    directory_root: 'Dossier racine du site'
+    directory_temporary: 'Dossier temporaire du site'
+    directory_theme_default: 'Dossier du thème par défaut'
+    directory_theme_admin: 'Dossier du thème d''administration'
+    current_version: 'Version de Drupal ("%s")'
+    not_installed: 'Drupal n''est pas installé'
+    not_available: 'Indisponible'
     configuration: Configuration
-    active: 'Active config path'
-    staging: 'Staging config path'
+    active: 'Chemin de la configuration active'
+    staging: 'Chemin de la configuration du staging'

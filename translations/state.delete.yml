@@ -1,7 +1,7 @@
-description: 'Delete State'
+description: 'Supprimer l''Etat'
 arguments:
-    name: 'State name.'
+    name: 'Nom de l''Etat.'
 messages:
-    enter-name: 'State name must contain a value.'
-    state-not-exists: 'The state "%s" does not exists.'
-    deleted: 'State "%s" sucessfully deleted.'
+    enter-name: 'Le nom de l''Etat doit contenir une valeur.'
+    state-not-exists: 'L''Etat "%s" n''existe pas.'
+    deleted: 'L''Etat "%s" a été supprimé avec succès.'

@@ -1,6 +1,6 @@
-description: 'Show the current State keys.'
-help: 'Show the current State keys.'
+description: 'Montre les clés de l''Etat actuel.'
+help: 'Montre les clés de l''Etat actuel.'
 arguments:
-    key: 'The State key to debug.'
+    key: 'La clé de l''Etat à débugger.'
 messages:
-    key: 'The State key'
+    key: 'La clé de l''Etat'
