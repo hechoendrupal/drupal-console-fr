@@ -1,22 +1,22 @@
-description: 'Run Test unit from tests available for application'
+description: 'Lance un test unitaire à partir des tests mis à disposition par l''application'
 arguments:
-    test-class: 'Test Class'
-    test-methods: 'Test method(s) to be run'
+    test-class: 'Classe de test'
+    test-methods: 'Méthode(s) de test à exécuter'
 messages:
-    missing-dependency: 'Test can''t be executed due a missing dependency'
-    phpunit-pending: 'Logic to execute PHPUnit test is not implemented yet.'
-    starting-test: 'Starting test'
-    test-duration: 'Test duration'
-    test-pass: 'Test passes'
-    test-fail: 'Test fails'
-    test-exception: 'Test exceptions'
-    test-debug: 'Test debugs'
-    url-required: 'URL option is required to run test'
-    test-summary: 'Test Summary'
-    group: Group
-    status: Status
-    file: File
-    method: Method
-    line: Line
+    missing-dependency: 'Le test ne peut pas être exécuter à cause d''une dépendance manquante'
+    phpunit-pending: 'La logique permettant d''exécuter un test PHPUnit n''est pas encore implémentée.'
+    starting-test: 'Démarrage du test'
+    test-duration: 'Durée du test'
+    test-pass: 'Le test est passé'
+    test-fail: 'Echec du test'
+    test-exception: 'Exceptions du test'
+    test-debug: 'Information de debug du test'
+    url-required: 'L''option URL est requise pour exécuter le test'
+    test-summary: 'Résumé du test'
+    group: Groupe
+    status: Statut
+    file: Fichier
+    method: Méthode
+    line: Ligne
     message: Message
-    invalid-class: 'Testing class "%s" doesn''t exists'
+    invalid-class: 'La classe de test "%s" n''existe pas' 
