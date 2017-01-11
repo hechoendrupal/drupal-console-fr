@@ -1,6 +1,6 @@
-description: 'Returns the relative path to the theme (or absolute path)'
+description: 'Renvoie le chemin relatif du thème (ou le chemin absolu)'
 arguments:
-    module: 'The Theme name (machine name)'
+    module: 'Le nom du thème (nom machine)'
 options:
-    absolute: 'Return theme absolute path'
+    absolute: 'Renvoie le chemin absolu du thème'
 messages: null
