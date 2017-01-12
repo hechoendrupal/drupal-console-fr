@@ -1,12 +1,12 @@
-description: 'Determine pending translation string in a language or a specific file in a language'
+description: 'Détermine les chaînes de caractère en attente de traduction dans une langue ou un fichier spécifique de langue'
 arguments:
-    language: 'Language to determine pending translations against English'
+    language: 'Langue pour laquelle déterminer les traductions en attente à partir de l''anglais'
 options:
-    file: 'Specific file to determine pending translations against English'
+    file: 'Fichier spécifique pour lequel déterminer les traductions en attente à partir de l''anglais'
 messages:
-    invalid-language: 'Language "%s" is invalid'
-    language: Language
-    pending-translations: 'Pending translation to "%s" at file "%s"'
-    missing-file: 'Language "%s" doens''t have file "%s", try executing translation:sync command'
-    success-language: 'There are "%s" pending traslations for "%s"'
-    success-language-file: 'There are "%s" pending traslations for "%s" at file "%s"'
+    invalid-language: 'La langue "%s" est invalide'
+    language: Langue
+    pending-translations: 'Traduction en attente de "%s" dans le fichier "%s"'
+    missing-file: 'La langue "%s" n''a pas le fichier "%s", essayez d'exécuter la commande translation:sync'
+    success-language: 'Il y a "%s" traductions en attente pour "%s"'
+    success-language-file: 'Il y a "%s" traductions en attente pour "%s" dans le fichier "%s"'
