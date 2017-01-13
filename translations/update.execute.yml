@@ -1,8 +1,8 @@
-description: 'Execute a specfic Update N function in a module, or execute all'
+description: 'Exécute une fonction de Mise à jour N dans un module, ou bien exécute toutes les fonctions'
 options:
-    update-n: 'Specific Update N function to be executed'
+    update-n: 'Fonction spécifique de Mise à jour N à exécuter'
 messages:
-    no-module-updates: 'There aren''t updates available for module "%s"'
-    executing-update: 'Executing update function "%s" of module "%s"'
-    module-update-function-not-found: 'Module "%s" doesn''t have a function update for "%s"'
-    executing-required-previous-updates: 'Executing required previous updates'
+    no-module-updates: 'Il n''y a pas de mises à jour disponibles pour le module "%s"'
+    executing-update: 'Exécution de la fonction de mise à jour "%s" du module "%s"'
+    module-update-function-not-found: 'Le module "%s" n''a pas de fonction de mise à jour "%s"'
+    executing-required-previous-updates: 'Exécution des précédentes mises à jour requises'
