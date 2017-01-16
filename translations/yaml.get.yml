@@ -1,7 +1,7 @@
 value:
-    description: 'Get a value for a specific key in a YAML file.'
+    description: 'Obtenir une valeur à partir d''une clé spécifique dans un fichier YAML.'
     arguments:
-        yaml-file: 'Path of YAML file to update'
-        yaml-key: 'YAML key to get'
+        yaml-file: 'Chemin du fichier YAML à mettre à jour'
+        yaml-key: 'Clé YAML pour laquelle obtenir la valeur'
     messages:
-        invalid-key: 'Could not find key %s in %s.'
+        invalid-key: 'La clé %s n''a pas pu être trouvée dans %s.'

@@ -1,8 +1,8 @@
-description: 'Display current views plugins for the application'
+description: 'Affiche les plugins de vues de l''application'
 arguments:
-    type: 'Filter views plugins by type'
+    type: 'Filtrer les plugins de vues par type'
 messages:
     type: Type
-    name: Name
-    provider: Provider
-    views: Views
+    name: Nom
+    provider: Fournisseur
+    views: Vues
