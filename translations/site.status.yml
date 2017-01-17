@@ -1,4 +1,4 @@
-description: 'Voir le statut actuel de l''installation Drupal'
+description: 'Voir l''état actuel de l''installation Drupal'
 messages:
     application: Application
     system: 'Information du système'

@@ -1,4 +1,4 @@
-description: 'Générer un nouveau "%s"'
+description: 'Génère un nouveau "%s"'
 help: 'la commande <info>"%s"</info> vous assiste dans la génération d''un nouveau "%s"'
 welcome: 'Bienvenue sur le générateur de formulaire Drupal'
 options:

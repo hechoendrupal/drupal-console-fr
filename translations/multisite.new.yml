@@ -1,15 +1,15 @@
 description: "Prépare les fichiers pour une nouvelle installation multi-sites."
 help: "La commande <info>multisite:new</info> vous assiste dans la configuration d''une nouvelle installation multi-sites en créant les sous-dossiers et les fichiers requis. Cette commande permet optionnellement de copier une installation 'par défaut' existante."
 arguments:
-    sites-subdir: "Nom du répertoire qui doit être créé dans 'sites'."
+    sites-subdir: "Nom du dossier qui doit être créé dans 'sites'."
 options:
     site-uri: "URI du site à ajouter dans sites.php."
     copy-install: "Copie un site existant depuis l''installation par défaut."
 errors:
     subdir-empty: "Vous devez spécifier un sous-dossier multi-sites à créer."
-    subdir-exists: 'Le répertoire sites/"%s" existe déjà.'
-    default-missing: "Le répertoire sites/default est introuvable."
-    mkdir-fail: 'Impossible de créer sites/"%s". Merci de vérifier les permissions du répertoire sites et d''essayer à nouveau.'
+    subdir-exists: 'Le dossier sites/"%s" existe déjà.'
+    default-missing: "Le dossier sites/default est introuvable."
+    mkdir-fail: 'Impossible de créer sites/"%s". Merci de vérifier les permissions du dossier sites et d''essayer à nouveau.'
     sites-invalid: "Le fichier sites.php est illisible ou bien n''est pas un fichier."
     sites-missing: "Aucun fichier sites.php ou example.sites.php à copier."
     sites-other: "Un problème est survenu lors de la tentative d''écriture sur le fichier sites.php"
@@ -18,7 +18,7 @@ errors:
     write-fail: 'Impossible d''écrire dans le fichier "%s". Merci de vérifier les permissions du fichier et d''essayer à nouveau.'
     chmod-fail: 'Impossible de modifier les permissions du fichier "%s". Merci de vous assurer que les permissions de ce fichier sont correctement configurées.'
 warnings:
-    missing-files: "Pas de répertoire sites/default/files trouvé. Le répertoire files devra être créé à la main."
+    missing-files: "Pas de dossier sites/default/files trouvé. Le dossier files devra être créé à la main."
 messages:
     copy-install: 'L''installation par défaut a été copiée avec succès dans sites/"%s".'
     fresh-site: 'La nouvelle structure multi-sites a été créée avec succès dans sites/"%s" et prête pour l''installation.'

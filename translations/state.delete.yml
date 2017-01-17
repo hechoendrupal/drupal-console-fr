@@ -1,4 +1,4 @@
-description: 'Supprimer l''Etat'
+description: 'Supprime l''Etat'
 arguments:
     name: 'Nom de l''Etat.'
 messages:

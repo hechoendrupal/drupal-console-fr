@@ -1,4 +1,4 @@
-description: 'Synchroniser les fichiers de traduction'
+description: 'Synchronise les fichiers de traduction'
 arguments:
     language: 'Langue pour laquelle synchroniser les fichiers à partir de l''anglais'
 options:

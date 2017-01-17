@@ -3,10 +3,10 @@ help: 'La commande <info>create:vocabularies</info> vous assiste dans la créati
 welcome: 'Bienvenue dans le générateur de vocabulaire Drupal'
 options:
     limit: 'Nombre de vocabulaires à créer'
-    name-words: 'Nombre maximums de mots des vocabulaires'
+    name-words: 'Nombre maximum de mots des vocabulaires'
 questions:
     limit: 'Nombre de vocabulaires à créer'
-    name-words: 'Nombre maximums de mots des vocabulaires'
+    name-words: 'Nombre maximum de mots des vocabulaires'
 messages:
     vocabulary-id: 'Id du vocabulaire'
     name: Nom

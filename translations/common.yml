@@ -1,13 +1,13 @@
 options:
-    class: 'Class name'
-    events: 'Charger des événements depuis le container'
-    module: 'Le nom du Module.'
-    services: 'Services de charge formant le container.'
-    tags: 'Les étiquettes de service prévues du conteneur.'
+    class: 'Nom de la classe'
+    events: 'Charger des événements depuis le conteneur.'
+    module: 'Le nom du module.'
+    services: 'Charger des services depuis le conteneur.'
+    tags: 'Assigner des tags au service depuis le conteneur.'
     inputs: 'Créer des entrées dans un formulaire.'
     permissions: 'Créer des autorisations.'
 questions:
-    class: 'Entrez le nom de la Classe'
+    class: 'Entrez le nom de la classe'
     module: 'Entrez le nom du module.'
     confirm: 'Confirmez-vous la génération'
     canceled: 'Génération de commande annulée.'
@@ -15,12 +15,12 @@ questions:
         message: "\nEntrez le nom de l''événement ou utilisez les flèches \"haut\" ou \"bas\".\nFacultatif, appuyez sur <info>entrer</info> afin de continuer\n"
         name: 'Entrez un nom d''événement'
     services:
-        confirm: 'Voulez-vous charger les services formant le container'
+        confirm: 'Voulez-vous charger les services formant le conteneur'
         message: "\nEntrez le nom du service ou utilisez les flèches \"haut\" ou \"bas\".\nFacultatif, appuyez sur<info>enter</info> afin de continuer\n"
         name: 'Entrez votre service'
     inputs:
         confirm: 'Voulez-vous générer une structure de formulaire'
-        label: 'Entrez le label'
+        label: 'Entrez l''étiquette'
         machine_name: 'Entrez le nom machine.'
         permission: 'Voulez-vous générer des permissions'
         type: Type

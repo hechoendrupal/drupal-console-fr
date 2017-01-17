@@ -1,4 +1,4 @@
-description: 'Générer une implémentation d''un squelette de plugin pour les plugins Drupal Console qui n''ont pas de générateur spécifique'
+description: 'Génère une implémentation d''un squelette de plugin pour les plugins Drupal Console qui n''ont pas de générateur spécifique'
 help: 'La commande <info>"%s"</info> vous permet de générer un squelette de plugin "%s"'
 options:
     module: common.options.module

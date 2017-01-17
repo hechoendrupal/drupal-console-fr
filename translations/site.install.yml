@@ -1,4 +1,4 @@
-description: 'Installer un site Drupal'
+description: 'Installe un site Drupal'
 arguments:
     profile: 'Profil Drupal à installer'
     langcode: 'Langue Drupal'

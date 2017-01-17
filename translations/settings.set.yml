@@ -1,4 +1,4 @@
-description: 'Change une valeur de configuration spécifique dans le fichier de configuration de DrupalConsole'
+description: 'Change une valeur de configuration spécifique dans le fichier de configuration de Drupal Console'
 arguments:
     setting-name: 'Nom de la configuration en format yaml aplati à laquelle assigner une valeur dans le fichier de configuration de Drupal Console'
     setting-value: 'Valeur de la configuration à assigner dans le fichier de configuration de Drupal Console'

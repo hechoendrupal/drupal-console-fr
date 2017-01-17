@@ -2,7 +2,7 @@ description: 'Affiche les services actuels d''une application.'
 arguments:
     service: 'Nom du service.'
 messages:
-    service_id: 'Service ID'
+    service_id: 'ID du service'
     class_name: 'Nom de classe.'
     service: 'Service'
     class: 'Classe'

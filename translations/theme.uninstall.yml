@@ -1,4 +1,4 @@
-description: 'Désisntaller un ou plusieurs thèmes dans l''application'
+description: 'Désisntalle un ou plusieurs thèmes dans l''application'
 questions:
     theme: 'Nom du thème (press <return> to stop adding themes)'
     invalid-theme: 'Thème "%s" invalide'

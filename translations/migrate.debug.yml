@@ -1,4 +1,4 @@
-description: 'Affiche la migration actuelle disponible pour l''application'
+description: 'Affiche la migration actuellement disponible dans l''application'
 arguments:
     tag: 'Tag de migration'
 messages:

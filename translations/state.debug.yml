@@ -1,5 +1,5 @@
-description: 'Montre les clés de l''Etat actuel.'
-help: 'Montre les clés de l''Etat actuel.'
+description: 'Affiche les clés de l''Etat actuel.'
+help: 'Affiche les clés de l''Etat actuel.'
 arguments:
     key: 'La clé de l''Etat à débugger.'
 messages:

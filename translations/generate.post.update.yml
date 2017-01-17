@@ -1,4 +1,4 @@
-description: 'Générer une implémentation de hook_post_update_NAME()'
+description: 'Génère une implémentation de hook_post_update_NAME()'
 help: 'La commande <info>"%s"</info> permet de générer un hook post update NAME "%s"'
 options:
     post-update-name: 'Nom du post update'

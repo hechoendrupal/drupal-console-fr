@@ -1,4 +1,4 @@
-description: 'Installer un ou plusieurs modules dans l''application'
+description: 'Installe un ou plusieurs modules dans l''application'
 arguments:
     module: 'Le ou les modules à activer doivent être séparés par un espace'
 options:

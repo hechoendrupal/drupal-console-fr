@@ -1,6 +1,6 @@
-description: 'Générer un plugin de ressource rest'
+description: 'Génère un plugin de ressource rest'
 help: 'La commande <info>generate:plugin:rest:resource</info> vous permet de générer une nouvelle ressource rest.'
-welcome: 'Bienvenue eur le générateur de ressource rest de Drupal'
+welcome: 'Bienvenue sur le générateur de ressource rest de Drupal'
 options:
     module: common.options.module
     class: 'Classe du plugin de ressource rest'

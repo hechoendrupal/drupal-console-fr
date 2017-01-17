@@ -1,4 +1,4 @@
-description: 'Traiter la queue sélectionnée.'
+description: 'Traite la queue sélectionnée.'
 arguments:
   name: 'Nom de la queue.'
 messages:

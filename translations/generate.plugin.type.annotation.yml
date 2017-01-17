@@ -1,4 +1,4 @@
-description: 'Générer un type de plugin avec des annotations (mécanisme de découverte)'
+description: 'Génère un type de plugin avec des annotations (mécanisme de découverte)'
 help: 'La commande <info>generate:plugin:type:annotation</info> permet de générer un nouveau type de plugin qui repose sur des annotations (mécanisme de découverte).'
 welcome: 'Bienvenue sur le générateur de type de plugin de Drupal'
 options:

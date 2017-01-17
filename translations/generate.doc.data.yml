@@ -1,4 +1,4 @@
-description: 'Générer des documentations de Commandes.'
+description: 'Génère des documentations de Commandes.'
 options:
     file: 'Le fichier où générer le code de la commande'
 messages:

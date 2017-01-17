@@ -1,4 +1,4 @@
-description: 'Installer les dépendances d''un module dans l''application'
+description: 'Installe les dépendances d''un module dans l''application'
 arguments:
     module: 'Le ou les modules à activer doivent être séparés par un espace'
 messages:

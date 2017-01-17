@@ -1,4 +1,4 @@
-description: 'Vider les caches par style d''image ou pour tous les styles d''image'
+description: 'Vide les caches par style d''image ou pour tous les styles d''image'
 messages:
     executing-flush: 'Le cache du style d''image "%s" est en train d''être vidé'
     success: 'Tous les fonctions pour vider les caches ciblés ont été exécutées avec succès'

@@ -1,4 +1,4 @@
-description: 'Générer une nouvelle entité de contenu'
+description: 'Génère une nouvelle entité de contenu'
 help: ''
 options:
     module: common.options.module

@@ -1,4 +1,4 @@
-description: 'Créer un nouveau projet Drupal'
+description: 'Crée un nouveau projet Drupal'
 arguments:
     directory: 'Dossier dans lequel installer Drupal'
     version: 'Version de Drupal à télécharger'

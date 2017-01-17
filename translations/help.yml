@@ -1,5 +1,5 @@
 description: 'Affiche de l''aide pour une commande'
-help: "La commande <info>%command.name%</info> affiche de l''aide pour une commande donnée :\n\n<info>php %command.full_name% list</info>\n\nVous pouvez aussi afficher l''aide dans d''autre formats en utilisant l''option <comment>--format</comment> option:\n\n<info>php %command.full_name% --format=xml list</info>\n\nPour afficher la liste des commandes disponibles, merci d''utiliser la commande <info>list</info>.\n"
+help: "La commande <info>%command.name%</info> affiche de l''aide pour une commande donnée :\n\n<info>php %command.full_name% list</info>\n\nVous pouvez aussi afficher l''aide dans d''autres formats en utilisant l''option <comment>--format</comment> option:\n\n<info>php %command.full_name% --format=xml list</info>\n\nPour afficher la liste des commandes disponibles, merci d''utiliser la commande <info>list</info>.\n"
 arguments:
     command_name: 'Le nom de la commande'
 options:

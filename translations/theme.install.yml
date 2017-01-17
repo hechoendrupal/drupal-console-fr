@@ -1,4 +1,4 @@
-description: 'Installer un ou plusieurs thèmes dans l''application'
+description: 'Installe un ou plusieurs thèmes dans l''application'
 questions:
     theme: 'nom du thème (appuyer sur <entrée> pour arrêter l''ajout de thème)'
     invalid-theme: 'Thème "%s" invalide'

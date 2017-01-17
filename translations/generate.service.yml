@@ -1,4 +1,4 @@
-description: 'Générer un service'
+description: 'Génère un service'
 help: 'La commande <info>generate:service</info> permet de générer un nouveau service.'
 welcome: 'Bienvenue sur le générateur de services de Drupal'
 options:

@@ -1,4 +1,4 @@
-description: 'Exporter la configuration actuelle de l''application.'
+description: 'Exporte la configuration actuelle de l''application.'
 arguments:
     directory: 'Définit le répertoire de sauvegarde de la configuration.'
     tar: 'Si précisé, la configuration sera exportée dans un fichier d''archive.'

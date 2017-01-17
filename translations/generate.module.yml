@@ -1,4 +1,4 @@
-description: 'Générer un module.'
+description: 'Génère un module.'
 help: 'La commande <info>generate:module</info> vous assiste dans la génération d''un nouveau module'
 welcome: 'Bienvenue sur le générateur de modules Drupal'
 options:
@@ -6,7 +6,7 @@ options:
     machine-name: 'Le nom machine (minuscules et underscore _ seulement)'
     module-path: 'Le chemin du module'
     description: 'Description du module'
-    core: 'Version de core.'
+    core: 'Version du cœur.'
     features-bundle: 'Définir le module en tant que "feature" en précisant le bundle de Features concerné'
     package: 'Paquet <em>package</em> du module'
     module-file: 'Ajouter un fichier .module'
@@ -31,5 +31,5 @@ questions:
 warnings:
     module-unavailable: 'Attention, les modules suivants ne sont pas disponible dans votre installation locale : "%s"'
 errors:
-    invalid-core: 'La version du core de Drupal "%s" n''est pas valide.'
+    invalid-core: 'La version du cœur de Drupal "%s" n''est pas valide.'
     directory-exists: 'Le dossier cible "%s" n''est pas vide'

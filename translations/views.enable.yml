@@ -1,4 +1,4 @@
-description: 'Activer une vue'
+description: 'Active une vue'
 messages:
     enabled-successfully: 'La vue "%s" a été activée avec succès.'
     disabled-successfully: 'La vue "%s" a été désactivée.'

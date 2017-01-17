@@ -1,4 +1,4 @@
-description: 'Générer un RouteSubscriber'
+description: 'Génèrer un RouteSubscriber'
 help: 'La commande <info>generate:service</info> permet de générer un nouveau RouteSubscriber.'
 welcome: 'Bienvenue sur le générateur de RouteSubscriber de Drupal.'
 options:

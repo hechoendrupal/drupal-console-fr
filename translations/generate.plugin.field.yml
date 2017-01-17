@@ -1,4 +1,4 @@
-description: 'Générer des plugins de type, de widget et de formateur de champ.'
+description: 'Génère des plugins de type, de widget et de formateur de champ.'
 help: 'La commande <info>generate:plugin:field</info> vous permet de générer un ensemble complet de plugin de champ : type de champ, formateur de champ et widget de champ.'
 welcome: 'Bienvenue sur le générateur de plugin de champ de Drupal'
 options:

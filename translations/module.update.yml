@@ -1,6 +1,6 @@
-description: 'Met à jour le core, ou bien un ou plusieurs modules de l''application'
+description: 'Met à jour le cœur, ou bien un ou plusieurs modules de l''application'
 arguments:
-    module: 'Le ou les modules à mettre à jour doivent être séparés par un espace. Laisser vide pour mettre à jour le core et tous vos modules gérés par Composer.'
+    module: 'Le ou les modules à mettre à jour doivent être séparés par un espace. Laisser vide pour mettre à jour le cœur et tous vos modules gérés par Composer.'
 options:
     composer: 'Mettre à jour le module via Composer'
     simulate: 'Simuler le processus de mise à jour via Composer'

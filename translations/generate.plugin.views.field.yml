@@ -1,4 +1,4 @@
-description: 'Générer un plugin personnalisé de champ de vue.'
+description: 'Génère un plugin personnalisé de champ de vue.'
 help: 'La commande <info>generate:plugin:views:field</info> permet de générer un nouveau plugin personnalisé de champ de vue.'
 options:
     class: 'Nom de la classe du plugin de champ de vue'    

@@ -3,5 +3,5 @@ help: 'La commande <info>multisite:debug</info> liste toutes les installations m
 messages:
     no-multisites: 'Il n''y a pas d''installations multi-sites configurées'
     site: Site
-    directory: Répertoire
+    directory: Dossier
     site-format: 'Les sites sont écrits en utilisant le format : <port>.<domain>.<path>'

@@ -7,7 +7,7 @@ messages:
     name: Nom
     status: Statut
     origin: Origine
-    package: Paquet
+    package: Package
     installed: Installé
     uninstalled: Désinstallé
     version: Version

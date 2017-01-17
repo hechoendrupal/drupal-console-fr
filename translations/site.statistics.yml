@@ -1,5 +1,5 @@
-description: 'Montre les statistiques actuelles du site web.'
-help: 'Montre les statistiques actuelles du site web.'
+description: 'Affiche les statistiques actuelles du site web.'
+help: 'Affiche les statistiques actuelles du site web.'
 messages:
     stat-name: Nom
     stat-quantity: Quantité

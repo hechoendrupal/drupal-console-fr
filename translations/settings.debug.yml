@@ -1,4 +1,4 @@
-description: 'Affiche la configuration par l''utilisateur de Drupal Console.'
+description: 'Affiche la configuration personnalisée de Drupal Console.'
 messages:
     config-key: 'Clé de configuration'
     config-value: 'Valeur de configuration'

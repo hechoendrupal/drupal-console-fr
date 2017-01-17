@@ -1,4 +1,4 @@
-description: 'Appliquer des mises à jour d''entités'
+description: 'Applique des mises à jour d''entités'
 messages:
     start: 'Démarrage des mises à jour d''entités'
     end: 'Les mises à jour d''entités sont terminées'

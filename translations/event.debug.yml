@@ -1,4 +1,4 @@
-description: 'Affiche les événements courants'
+description: 'Affiche les événements disponibles'
 help: 'La commande <info>event:debug</info> vous aide à débugger les événements.'
 arguments:
     event: 'Evénement à débugger'

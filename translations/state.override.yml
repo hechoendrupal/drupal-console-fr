@@ -1,4 +1,4 @@
-description: 'Surcharger la clé d''un Etat.'
+description: 'Surcharge la clé d''un Etat.'
 help: 'Surcharger la clé d''un Etat.'
 arguments:
     key: 'La clé de l''Etat à surcharger.'
