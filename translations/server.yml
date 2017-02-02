@@ -1,17 +1,17 @@
-description: 'Runs PHP built-in web server'
+description: 'Lance le serveur web PHP interne'
 arguments:
-    address: 'The address:port values'
+    address: 'Les valeurs adresse:port'
 messages:
-    executing: 'Executing php from "%s".'
+    executing: 'Execution du php depuis "%s".'
 errors:
-    binary: 'Unable to find PHP binary to run server.'
+    binary: 'Impossible de trouver le binaire PHP pour lancer le serveur.'
 examples:
     -
-        description: 'Run using default address argument value 127.0.0.1:8088'
-        execution: 'drupal server'
+        description: 'Lancer en utilisant en argument la valeur d''adresse par défaut 127.0.0.1:8088'
+        execution: 'serveur drupal'
     -
-        description: 'Passing address argument to use a different port number'
-        execution: 'drupal server 127.0.0.1:8089'
+        description: 'Passer en argument une adresse pour utiliser un numéro de port différent'
+        execution: 'serveur drupal 127.0.0.1:8089'
     -
-        description: 'Running default address argument values, using --root option to define the Drupal root'
+        description: 'Lancement avec en argument les valeurs d''adresse par défaut, en utilisant l''option --root pour définir la racine Drupal'
         execution: 'drupal --root=/var/www/drupal8.dev server'

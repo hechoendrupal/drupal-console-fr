@@ -1,17 +1,17 @@
-description: 'Générer un bloc de plugin'
+description: 'Génère un plugin de bloc'
 help: 'La commande <info> generate: plugin: bloc </ info> permet de générer un nouveau plugin de bloc.'
 welcome: 'Bienvenue au générateur de plugin de bloc'
 options:
     module: common.options.module
     class: 'Nom de la classe plugin'
-    label: 'Label plugin'
-    plugin-id: 'Plugin id'
+    label: 'Label du plugin'
+    plugin-id: 'Id du plugin'
     inputs: common.options.inputs
     services: common.options.services
     theme-region: 'Région du thème où placer le plugin de bloc'
 questions:
     module: common.questions.module
-    class: 'Entrez le nom de la classe plugin'
+    class: 'Entrez le nom de la classe du plugin'
     label: 'Entrez le label du plugin'
     plugin-id: 'Entrez l''id du plugin'
     inputs: common.questions.inputs

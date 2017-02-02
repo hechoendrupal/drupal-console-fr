@@ -1,8 +1,8 @@
-description: 'Supprimer une entité spécifique'
+description: 'Supprime une entité spécifique'
 help: 'La commande <info>entity:delete</info> vous permet de supprimer des entités.'
 arguments:
   entity-definition-id: 'Id de la définition de l''entité'
-  entity-id: 'Entity ID à supprimer'
+  entity-id: 'ID de l''entité à supprimer'
 questions:
   entity-type: 'Entrez le type d''entité'
   entity-definition-id: 'Entrez l''id de la définition de l''entité'

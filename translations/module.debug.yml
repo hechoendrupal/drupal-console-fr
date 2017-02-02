@@ -1,20 +1,20 @@
-description: 'Display current modules available for application'
+description: 'Affiche les modules actuellement disponibles dans l''application'
 options:
-    status: 'Module status [enabled|disabled]'
-    type: 'Module type [core|no-core]'
+    status: 'Statut du module [enabled|disabled]'
+    type: 'Type de module [core|no-core]'
 messages:
     id: ID
-    name: Name
-    status: Status
-    origin: Origin
+    name: Nom
+    status: Statut
+    origin: Origine
     package: Package
-    installed: Installed
-    uninstalled: Uninstalled
+    installed: Installé
+    uninstalled: Désinstallé
     version: Version
-    schema-version: 'Schema version'
-    total-downloads: 'Total installs'
-    total-monthly: 'Monthly installs'
-    total-daily: 'Daily installs'
-    no-results: 'Module "%s" was not found in the repository'
-    enabled: Enabled
-    disabled: Disabled
+    schema-version: 'Version du schéma'
+    total-downloads: 'Total d''installations'
+    total-monthly: 'Installations mensuelles'
+    total-daily: 'Installations quotidiennes'
+    no-results: 'Le module "%s" n''a pas été trouvé dans le dépôt'
+    enabled: Actif
+    disabled: Désactivé

@@ -1,4 +1,4 @@
-description: 'Générer un profil.'
+description: 'Génère un profil.'
 help: 'La commande <info>generate:profile</info> permet de générer un nouveau profil d''installation.'
 welcome: 'Bienvenue sur le générateur de profil d''installation de Drupal'
 options:

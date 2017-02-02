@@ -1,4 +1,4 @@
-description: 'Générer une extension Twig.'
+description: 'Génère une extension Twig.'
 help: 'La commande <info>generate:twig:extension</info> vous permet de générer une extension Twig.'
 welcome: 'Bienvenue sur le générateur d''extension Twig de Drupal'
 options:

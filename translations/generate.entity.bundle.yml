@@ -1,4 +1,4 @@
-description: 'Générer un nouveau type de contenu (node / bundle d''entité)'
+description: 'Génère un nouveau type de contenu (nœud / bundle d''entité)'
 help: 'Utilisez : generate:contenttype <fancy> <Fancy> pour créer un nouveau nom de type de contenu avec le nom machine fancy et le nom lisible par les utilisateurs Fancy.'
 welcome: 'Bienvenue dans le générateur de Type de Contenu'
 options:

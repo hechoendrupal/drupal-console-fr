@@ -1,6 +1,6 @@
-description: 'Générer un plugin de mail'
-help: 'La commande <info>generate:plugin:mail</info> permet de générer un nouveau plugin de mail.'
-welcome: 'Bienvenue sur le générateur de plugin de mail de Drupal'
+description: 'Génère un plugin de courriel'
+help: 'La commande <info>generate:plugin:mail</info> permet de générer un nouveau plugin de courriel.'
+welcome: 'Bienvenue sur le générateur de plugin de courriel de Drupal'
 options:
     module: common.options.module
     class: 'Nom de la classe de plugin'

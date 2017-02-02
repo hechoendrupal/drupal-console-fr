@@ -1,13 +1,13 @@
-description: 'Display current updates available for the application'
+description: 'Affiche les mises à jour actuellement disponibles pour l''application'
 messages:
-    no-updates: 'No pending updates'
-    severity: Severity
-    title: Title
-    value: Value
+    no-updates: 'Aucune mise à jour en attente'
+    severity: Sévérité
+    title: Titre
+    value: Valeur
     description: Description
-    requirements-error: 'The following requirement weren''t completed'
-    module-list: 'Modules with pending updates'
-    module-list-post-update: 'Modules with pending post updates'
+    requirements-error: 'Les conditions suivantes ne sont pas remplies'
+    module-list: 'Modules avec des mises à jour en attente'
+    module-list-post-update: 'Modules avec des opérations prévues après la mise à jour'
     module: Module
-    update-n: 'Update N'
-    post-update: 'Post update function'
+    update-n: 'Mise à jour N'
+    post-update: 'Fonction après la mise à jour'

@@ -1,7 +1,7 @@
-description: 'Install dependencies module in the application'
+description: 'Installe les dépendances d''un module dans l''application'
 arguments:
-    module: 'Module or modules to be enabled should be separated by a space'
+    module: 'Le ou les modules à activer doivent être séparés par un espace'
 messages:
-    no-depencies: 'Nothing to do. This modules has not dependencies to install'
-    installing: 'Installing module(s) "%s"'
-    success: 'The following module(s) were installed successfully: "%s"'
+    no-depencies: 'Rien à faire. Aucune dépendance à installer pour ce(s) module(s)'
+    installing: 'Module(s) "%s" en cours d''installation'
+    success: 'L''installation s''est déroulée avec succès pour le(s) module(s) suivant(s): "%s"'

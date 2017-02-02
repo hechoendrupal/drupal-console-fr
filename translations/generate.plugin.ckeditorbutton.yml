@@ -1,4 +1,4 @@
-description: 'Générer un plugin de bouton CKEditor.'
+description: 'Génère un plugin de bouton CKEditor.'
 help: 'La commande <info>generate:plugin:ckeditorbutton</info> vous permet de générer un plugin de bouton CKEditor.'
 welcome: 'Bienvenue sur le générateur de plugin de bouton CKEditor'
 options:

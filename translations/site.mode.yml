@@ -1,16 +1,16 @@
-description: 'Switch system performance configuration'
+description: 'Change la configuration de la performance du système'
 arguments:
-    environment: 'Enviroment name'
+    environment: 'Nom de l''environnement'
 messages:
-    configuration: 'Configuration name'
-    configuration-key: 'Configuration key'
-    original: 'Original Value'
-    updated: 'Override Value'
-    invalid-env: 'Invalid environment'
-    new-services-settings: 'New services settings'
+    configuration: 'Nom de la configuration'
+    configuration-key: 'Clé de la configuration'
+    original: 'Valeur originale'
+    updated: 'Surcharger la valeur'
+    invalid-env: 'Environnement invalide'
+    new-services-settings: 'Configuration de nouveaux services'
     service: Service
-    service-parameter: Parameter
-    service-value: Value
-    error-copying-file: 'Error copying file'
-    error-writing-file: 'Error copying file'
-    services-file-overwritten: 'Services files "%s" was overwritten'
+    service-parameter: Paramètre
+    service-value: Valeur
+    error-copying-file: 'Erreur lors de la copie du fichier'
+    error-writing-file: 'Erreur lors de la copie du fichier'
+    services-file-overwritten: 'Le fichier de services "%s" a été surchargé'

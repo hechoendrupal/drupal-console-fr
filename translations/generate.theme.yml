@@ -1,4 +1,4 @@
-description: 'Générer un theme.'
+description: 'Génère un theme.'
 help: 'La commande <info>generate:theme</info> vous assiste dans la création d''un nouveau thème.'
 welcome: 'Bienvenue dans le générateur de thème pour Drupal'
 options:
@@ -6,7 +6,7 @@ options:
     machine-name: 'Le nom machine (minuscules et underscore seulement)'
     theme-path: 'Le chemin du thème'
     description: 'Description du thème'
-    core: 'Version du core'
+    core: 'Version du cœur'
     package: 'Package du thème'
     composer: 'Ajouter un fichier composer.json'
     base-theme: 'Thème de base (i.e. classy, stable)'
@@ -19,7 +19,7 @@ questions:
     machine-name: 'Entrez le nom machine du thème'
     theme-path: 'Entrez le chemin du thème'
     description: 'Entrez la description du thème'
-    core: 'Entrez la version du core de Drupal'
+    core: 'Entrez la version du cœur de Drupal'
     package: 'Entrez le nom du package'
     dependencies: 'Voulez-vous ajouter des dépendances de modules'
     invalid-theme: 'Le thème "%s" seléctionné est invalide'

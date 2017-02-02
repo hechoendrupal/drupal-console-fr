@@ -1,4 +1,4 @@
-description: 'Générer un plugin de formateur d''image.'
+description: 'Génère un plugin de formateur d''image.'
 help: 'La commande <info>generate:plugin:imageformatter</info> vous permet de générer un nouveau plugin de formateur d''image.'
 options:
     module: common.options.module

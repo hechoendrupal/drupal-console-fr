@@ -1,9 +1,9 @@
-description: 'Process the selected queue.'
+description: 'Traite la queue sélectionnée.'
 arguments:
-  name: 'Queue name.'
+  name: 'Nom de la queue.'
 messages:
-  success: 'Processed "%s": "%s"/"%s" items in "%s" seconds.'
-  failed: '"%s" failed: "%s".'
-  missing-name: 'Provide a valid queue name.'
-  invalid-name: 'Invalid queue name "%s" provided.'
+  success: '"%s" items traités : "%s"/"%s" en "%s" secondes.'
+  failed: 'Echec de "%s" : "%s".'
+  missing-name: 'Fournir un nom de queue valide.'
+  invalid-name: 'Nom de queue invalide "%s" fourni.'
 

@@ -1,16 +1,16 @@
-description: 'Show the current statistics of website.'
-help: 'Show the current statistics of website.'
+description: 'Affiche les statistiques actuelles du site web.'
+help: 'Affiche les statistiques actuelles du site web.'
 messages:
-    stat-name: Name
-    stat-quantity: Quantity
-    node-type: 'Node:"%s"'
-    comments: Comments
-    vocabulary: Vocabularies
-    taxonomy-terms: 'Taxonomy terms'
-    files: Files
-    users: Users
-    modules-enabled: 'Modules enabled'
-    modules-disabled: 'Modules disabled'
-    themes-enabled: 'Themes enabled'
-    themes-disabled: 'Themes disabled'
-    views: 'Views (Not system views)'
+    stat-name: Nom
+    stat-quantity: Quantité
+    node-type: 'Nœud:"%s"'
+    comments: Commentaires
+    vocabulary: Vocabulaires
+    taxonomy-terms: 'Termes de taxonomie'
+    files: Fichiers
+    users: Utilisateurs
+    modules-enabled: 'Modules activés'
+    modules-disabled: 'Modules désactivés'
+    themes-enabled: 'Thèmes activés'
+    themes-disabled: 'Thèmes désactivés'
+    views: 'Vues (Hors vues du système)'

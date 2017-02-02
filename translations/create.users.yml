@@ -20,7 +20,7 @@ questions:
         - 'Il y a un mois'
         - 'Il y a un an'
 messages:
-    user-id: 'Id utilisateur'
+    user-id: 'Id de l''utilisateur'
     roles: Rôles
     username: 'Nom d''''utilisateur'
     created: 'Date de création'

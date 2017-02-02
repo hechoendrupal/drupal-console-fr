@@ -1,17 +1,17 @@
-description: 'Delete users for the application'
-help: 'The <info>user:delete</info> command helps you delete users.'
-welcome: 'Welcome to the Drupal user delete'
+description: 'Supprime des utilisateurs de l''application'
+help: 'La commande <info>user:delete</info> vous permet de supprimer des utilisateurs.'
+welcome: 'Bienvenue sur la commande Drupal de suppression d''utilisateur'
 options:
-    user-id: 'User id to be deleted'
-    roles: 'Roles associated to users to be deleted'
+    user-id: 'Id de l''utilisateur à supprimer'
+    roles: 'Rôles associés aux utilisateurs à supprimer'
 questions:
-    user-id: 'User id to be deleted (empty to skip)'
-    roles: 'Select role(s) associated to used to be deleted'
+    user-id: 'Id de l''utilisateur à supprimer (vide pour ignorer)'
+    roles: 'Sélectionner le(s) rôle(s) associé(s) aux utilisateurs à supprimer'
 messages:
-    user-id: 'User ID'
-    username: Username
-    user-deleted: 'User "%s" was deleted successfully'
-    users-deleted: '"%s" users were deleted successfully'
+    user-id: 'ID de l''utilisateur'
+    username: Nom d''utilisateur
+    user-deleted: 'L'utilisateur "%s" a été supprimé avec succès'
+    users-deleted: 'Les utilisateurs "%s" ont été supprimés avec succès'
 errors:
-    invalid-user-id: 'User id "%s" is invalid'
-    invalid-user: 'User id "%s" is invalid'
+    invalid-user-id: 'L''id de l''utilisateur "%s" est invalide'
+    invalid-user: 'L''id de l''utilisateur  "%s" est invalide'

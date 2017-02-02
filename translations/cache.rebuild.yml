@@ -1,4 +1,4 @@
-description: 'Reconstruire l''ensemble des caches du site.'
+description: 'Reconstruit l''ensemble des caches du site.'
 options:
     cache: 'Reconstruire un cache spécifique.'
 messages:

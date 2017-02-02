@@ -1,4 +1,4 @@
-description: 'Générer une implémentation de hook_help()'
+description: 'Génère une implémentation de hook_help()'
 help: 'La commande <info>"%s"</info> vous permet de générer un hook help "%s"'
 options: null
 questions: null

@@ -1,4 +1,4 @@
-description: 'Générer un plugin d''action de rule'
+description: 'Génère un plugin d''action de rule'
 help: 'La commande <info>generate:plugin:rulesaction</info> vous permet de générer un nouverau plugin d''action de rule.'
 welcome: 'Bienvenue sur le générateur de plugin d''action de Rules de Drupal'
 options:

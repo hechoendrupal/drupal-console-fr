@@ -3,15 +3,15 @@ arguments:
     language: 'Langue, par exemple : es ou Espagnol'
 messages:
     no-languages: 'Pas de langue traductible disponible. Ajouter d''abord une langue.'
-    up-to-date: 'All translations up to date.'
-    no-translations: 'Pas de status de traduction disponible. Vérifier manuellement'
-    project: Project
+    up-to-date: 'Toutes les traductions sont à jour.'
+    no-translations: 'Pas de statut de traduction disponible. Vérifier manuellement'
+    project: Projet
     version: Version
-    local-age: 'Local age'
-    remote-age: 'Remote age'
+    local-age: 'Âge local'
+    remote-age: 'Âge distant'
     info: Information
-    no-translation-files: 'No translation files are provided for development releases.'
-    file-not-found: 'File not found at "%s" nor at "%s"'
-    local-file-not-found: 'File not found at "%s"'
-    translation-not-determined: 'Translation file location could not be determined.'
-    translation-project-updated: Updated
+    no-translation-files: 'Les fichiers de traduction pour les versions de développement n''ont pas été fournies.'
+    file-not-found: 'Fichier introuvable dans "%s" ni dans "%s"'
+    local-file-not-found: 'Fichier introuvable dans "%s"'
+    translation-not-determined: 'L''emplacement du fichier de traduction n''a pas pu être déterminé.'
+    translation-project-updated: Mis à jour

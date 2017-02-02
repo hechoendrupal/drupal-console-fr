@@ -1,4 +1,4 @@
-description: 'Génère des termes de taxonomy factices pour votre application Drupal 8.'
+description: 'Génère des termes de taxonomie factices pour votre application Drupal 8.'
 help: 'La commande <info>create:terms</info> vous assiste dans la génération de termes de taxonomie factices de type "Lorem ipsum".'
 welcome: 'Bievenue dans le générateur de termes de taxonomie Drupal'
 arguments:
@@ -14,5 +14,5 @@ messages:
     term-id: 'Identifiant du terme'
     vocabulary: Vocabulaire
     name: Nom
-    invalid-vocabularies: 'Le(s) vocabulaire(s) "%s" est/sont pas valide(s)'
+    invalid-vocabularies: 'Vocabulaire(s) "%s" non valide(s)'
     created-terms: 'Génération de "%s" termes avec succès'

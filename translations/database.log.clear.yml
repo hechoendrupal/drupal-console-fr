@@ -1,6 +1,6 @@
 description: 'Vide la table DBLog contenant les événements, avec possibilité de fitrer'
 arguments:
-    event-id: 'DBLog event ID'
+    event-id: 'ID de l''événement DBLog'
 options:
     type: 'Filtrer les événements selon un type spécifique'
     severity: 'Filtrer les événements selon un niveau spécifique de sévérité'

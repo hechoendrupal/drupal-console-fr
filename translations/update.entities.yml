@@ -1,5 +1,5 @@
-description: 'Applying Entity Updates'
+description: 'Applique des mises à jour d''entités'
 messages:
-    start: 'Starting the entity updates'
-    end: 'Finished the entity updates'
-    error: 'Error on Entity Updates'
+    start: 'Démarrage des mises à jour d''entités'
+    end: 'Les mises à jour d''entités sont terminées'
+    error: 'Erreur lors de la mise à jour des entités'

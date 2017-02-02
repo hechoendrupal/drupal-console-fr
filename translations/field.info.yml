@@ -1,4 +1,4 @@
-description: 'Voir des informations concernant des champs.'
+description: 'Affiche des informations concernant des champs.'
 help: 'Voir des informations de champs.'
 options:
     detailed: 'Sortie étendue avec les noms machine et les descriptions'

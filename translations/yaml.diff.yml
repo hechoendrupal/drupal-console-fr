@@ -4,7 +4,7 @@ arguments:
     yaml-right: 'Fichier YAML à comparer avec le fichier de base'
 options:
     stats: 'Print statistics about YAML files comparation'
-    negate: 'Défini le mode de comparaison inverse, met en valeur ce qui est identique, les valeurs possibles sont TRUE/FALSE ou 0/1'
+    negate: 'Définit le mode de comparaison inverse, met en valeur ce qui est identique, les valeurs possibles sont TRUE/FALSE ou 0/1'
     limit: 'Limiter le nombre de résultats'
     offset: 'Décalage de départ'
 questions:
@@ -14,5 +14,5 @@ messages:
     key: 'Clé YAML'
     value: 'Valeur YAML'
     total: 'Total: "%s"'
-    diff: 'Diff: "%s"'
-    equal: 'Equal: "%s"'
+    diff: 'Différents : "%s"'
+    equal: 'Equivalents: "%s"'
