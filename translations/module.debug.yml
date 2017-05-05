@@ -20,6 +20,6 @@ messages:
     uninstalled: Désactivé
 examples:
     - description: 'Affiche tous les modules actifs (ou installés)'
-    execution: 'drupal mod --status=installed'
+      execution: 'drupal mod --status=installed'
     - description: 'Affiche tous les modules actifs qui ne sont pas du core (contrib + custom)'
-    execution: 'drupal mod --status=installed --type=no-core'
+      execution: 'drupal mod --status=installed --type=no-core'
