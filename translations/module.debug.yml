@@ -1,6 +1,6 @@
 description: 'Affiche les modules actuellement disponibles dans l''application'
 options:
-    status: 'Statut du module [enabled|disabled]'
+    status: 'Statut du module [installed|uninstalled]'
     type: 'Type de module [core|no-core]'
 messages:
     id: ID
@@ -16,5 +16,10 @@ messages:
     total-monthly: 'Installations mensuelles'
     total-daily: 'Installations quotidiennes'
     no-results: 'Le module "%s" n''a pas été trouvé dans le dépôt'
-    enabled: Actif
-    disabled: Désactivé
+    installed: Actif
+    uninstalled: Désactivé
+examples:
+    - description: 'Affiche tous les modules actifs (ou installés)'
+    execution: 'drupal mod --status=installed'
+    - description: 'Affiche tous les modules actifs qui ne sont pas du core (contrib + custom)'
+    execution: 'drupal mod --status=installed --type=no-core'
