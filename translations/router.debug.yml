@@ -10,7 +10,7 @@ messages:
     options: Options
     pattern: Motif 
 examples:
-    - description: 'Affiche toutes les routes de l'aplication'
+    - description: 'Affiche toutes les routes de l''application'
       execution: 'drupal rod'
     - description: 'Affiche le détail de la route user.page (/user)’
       execution: 'drupal rod user.page'
