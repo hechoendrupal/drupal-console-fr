@@ -1,4 +1,4 @@
-description: 'Affiche les routes de l''application'
+description: 'Affiche toutes les routes disponibles de l''application ou l''information d''une route en particulier'
 arguments:
     route-name: 'Noms des routes'
 messages:
@@ -9,3 +9,8 @@ messages:
     defaults: Valeurs par défaut
     options: Options
     pattern: Motif 
+examples:
+    - description: 'Affiche toutes les routes de l''application'
+      execution: 'drupal rod'
+    - description: 'Affiche le détail de la route user.page (/user)'
+      execution: 'drupal rod user.page'
