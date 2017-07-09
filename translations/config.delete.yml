@@ -6,7 +6,7 @@ messages:
     all: 'Toute la configuration a été supprimée avec succès.'
     deleted: 'La configuration "%s" a été supprimée.'
     name: 'Le nom de la configuration ne peut pas être vide.'
-    not-exists: 'La configuration "%s" n'''existe pas.'
+    not-exists: 'La configuration "%s" n''existe pas.'
 errors:
     config-storage: 'Le type de configuration n''a pas pu être chargé.'
     name: 'Le nom de la configuration doit contenir une valeur.'
@@ -16,3 +16,7 @@ warnings:
     undo: 'Cette action supprimera toute la configuration de manière définitive.'
 questions:
     sure: 'Êtes-vous sûr(e) de vouloir supprimer toute la configuration'
+examples:
+    -
+        description: 'Provide a config type and a config name'
+        execution: 'drupal config:delete active all'

@@ -8,8 +8,8 @@ messages:
     driver: Driver
     host: Serveur
     port: Port
-    username: Nom d''utilisateur
-    password: Mot de passe
+    username: 'Nom d''''utilisateur'
+    password: 'Mot de passe'
     theme: Thèmes
     connection: Connexion
     theme_default: 'Thème par défaut'
@@ -21,7 +21,7 @@ messages:
     directory_theme_admin: 'Dossier du thème d''administration'
     current_version: 'Version de Drupal ("%s")'
     not_installed: 'Drupal n''est pas installé'
-    not_available: 'Indisponible'
+    not_available: Indisponible
     configuration: Configuration
     active: 'Chemin de la configuration active'
     staging: 'Chemin de la configuration du staging'

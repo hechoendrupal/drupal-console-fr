@@ -1,8 +1,22 @@
 description: 'Importe une configuration dans le site courant.'
+options:
+    file: 'Path to an archive file of configuration to import.'
+    directory: 'Path to a directory of configuration to import.'
+    remove-files: 'Remove files after synchronization.'
+messages:
+    config_files_imported: 'Liste des fichiers de configuration.'
+    imported: 'L''ensemble des fichiers de configuration ont été copiés dans le dossier contenant la configuration "staging" et importés.'
+    importing: 'Importing configuration.'
+    already-imported: 'Another request may be synchronizing configuration already.'
+    nothing-to-do: 'There are no changes to import.'
+examples:
+    -
+        description: 'Provide a configuration file'
+        execution: "drupal config:import \\\n  --file=/path/to/config/file"
+    -
+        description: 'Provide a configuration directory'
+        execution: "drupal config:import  \\\n  --directory=/path/to/config/dir\n"
 arguments:
     file: 'Chemin vers le fichier de configuration.'
     directory: 'Chemin vers un répertoire de configuration pour l''import.'
     remove-files: 'Supprimer les fichiers après la synchronisation.'
-messages:
-    config_files_imported: 'Liste des fichiers de configuration.'
-    imported: 'L''ensemble des fichiers de configuration ont été copiés dans le dossier contenant la configuration "staging" et importés.'

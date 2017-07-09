@@ -6,6 +6,14 @@ messages:
     class: 'Chemin de la classe'
     route: Route
     path: Chemin
-    defaults: Valeurs par défaut
+    defaults: 'Valeurs par défaut'
+    requirements: Requirements
     options: Options
-    pattern: Motif 
+    pattern: Motif
+examples:
+    -
+        description: 'Displays current routes for the application'
+        execution: 'drupal rod'
+    -
+        description: 'Displays details for the route user.page (/user)'
+        execution: 'drupal rod user.page'

@@ -13,5 +13,5 @@ messages:
     disabled: Désactivé
     rest-state: 'Etats Rest'
     supported-formats: 'Formats supportés'
-    supported_auth: 'Systèmes d'authentification supportés'
+    supported_auth: 'Systèmes d''authentification supportés'
     not-found: 'Ressource Rest "%s" introuvable'

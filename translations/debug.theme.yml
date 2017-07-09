@@ -8,8 +8,8 @@ messages:
     version: Version
     installed: Installé
     uninstalled: Désinstallé
-    default-theme: Thème par défaut
+    default-theme: 'Thème par défaut'
     properties: Propriétés
     regions: Régions
     invalid-theme: 'Le thème "%s" est invalide'
-    theme-properties: Propriétés 
+    theme-properties: Propriétés

@@ -18,4 +18,4 @@ questions:
     container: 'Avez-vous besoin d''accéder au conteneur de services'
     controller-title: 'Titre du contrôleur'
 messages:
-    title-not-empty: 'Le titre ne peut pas être vide' 
+    title-not-empty: 'Le titre ne peut pas être vide'

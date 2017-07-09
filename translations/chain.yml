@@ -11,3 +11,7 @@ messages:
     set-environment-placeholders: 'Renseignez les placeholders de l''environnement :'
     missing-inline-placeholders: 'Il manque le(s) placeholder(s) en ligne "%s"'
     set-inline-placeholders: 'Renseignez les placeholders inline :'
+examples:
+    -
+        description: 'Providing a file option using full path.'
+        execution: "drupal chain \\\n  --file=\"/path/to/file/chain-file.yml\"\n"

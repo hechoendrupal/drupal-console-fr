@@ -3,3 +3,7 @@ options:
     group-name: 'Entrer le nom du groupe de breakpoints'
 messages:
     name: 'Extensions avec des breakpoints'
+examples:
+    -
+        description: 'Provide a group name.'
+        execution: 'drupal breakpoints:debug bartik'

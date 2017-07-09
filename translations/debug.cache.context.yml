@@ -1,5 +1,9 @@
 description: 'Affiche le contexte de cache courant pour l''application.'
 messages:
     code: 'ID du contexte'
-    label: 'Label'
+    label: Label
     class: 'Chemin de la Classe'
+examples:
+    -
+        description: 'Displays cache context'
+        execution: "drupal debug:cache:context\n"

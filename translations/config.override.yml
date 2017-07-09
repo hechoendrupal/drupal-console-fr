@@ -13,7 +13,7 @@ messages:
     configuration-key: 'Clé de la configuration'
     original: 'Valeur originale'
     updated: 'Nouvelle valeur'
-    invalid-name: 'L'objet Config "%s", n''existe pas'
+    invalid-name: 'L''objet Config "%s", n''existe pas'
 examples:
     -
         description: 'Définir la valeur de "flood" du module Contact à 10.'

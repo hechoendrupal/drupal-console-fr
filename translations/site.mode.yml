@@ -1,6 +1,8 @@
 description: 'Change la configuration de la performance du système'
 arguments:
     environment: 'Nom de l''environnement'
+options:
+    local: 'Use this option for testing PROD config, but using settings.local.php for connect to your local environment'
 messages:
     configuration: 'Nom de la configuration'
     configuration-key: 'Clé de la configuration'

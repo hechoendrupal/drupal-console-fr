@@ -1,6 +1,6 @@
-
 description: 'Vérificateur de configuration minimale système'
 messages:
+    file: 'Checking requirements using file at:'
     php_invalid: 'La version actuelle installée "%s" est invalide, "%s" ou plus est nécessaire'
     configuration_missing: 'La configuration "%s" est manquante.'
     configuration_overwritten: 'La configuration "%s" est manquante et a été remplacée par "%s".'

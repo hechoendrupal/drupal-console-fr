@@ -4,6 +4,11 @@ messages:
     site: Site
     host: Serveur
     root: Racine
-    directory-not-found: 'Dossier local de sites introuvable'
+    not-sites: 'No sites defined'
+    invalid-site: 'Invalid site name'
     private-key: 'Erreur avec la clé privée'
     connect-error: 'Erreur de connexion avec la machine distante'
+    directory-not-found: 'Dossier local de sites introuvable'
+options:
+    target: Target
+    property: Property

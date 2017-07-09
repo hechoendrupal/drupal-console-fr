@@ -16,3 +16,4 @@ questions:
     has-bundles: 'Voulez-vous que cette entité possède des bundles'
     base-path: 'Entrez le chemin de base pour les routes de l''entité de contenu'
     is-translatable: 'Est-ce que votre entité est traduisible'
+    revisionable: 'Is your entity revisionable'

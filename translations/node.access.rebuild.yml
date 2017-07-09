@@ -1,4 +1,5 @@
 description: 'Reconstruit les permissions d''accès aux noeuds. Le processus supprimera tous les privilèges sur le contenu et les remplacera par des permissions basés sur les modules et la configuration actuels.'
+help: 'Rebuilding will remove all privileges to content and replace them with permissions based on the current modules and settings.'
 options:
     batch: 'Traiter en mode batch.'
 messages:

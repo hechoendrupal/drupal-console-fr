@@ -13,6 +13,7 @@ options:
     composer: 'Ajouter un fichier composer.json'
     dependencies: 'Dépendances du modules (par exemple : context, galleria, panels)'
     test: 'Générer une classe de test'
+    twigtemplate: 'Generate theme template'
     controller: 'Contrôleur par défaut'
 questions:
     module: 'Entrez le nom du nouveau module'
@@ -27,6 +28,7 @@ questions:
     composer: 'Voulez-vous ajouter un fichier composer.json file à votre module'
     dependencies: 'Voulez-vous ajouter des dépendances à votre module'
     test: 'Voulez-vous générer une classe de test unitaire'
+    twigtemplate: 'Do you want to generate a themeable template'
     controller: 'Voulez-vous générer un contrôleur par défaut'
 warnings:
     module-unavailable: 'Attention, les modules suivants ne sont pas disponible dans votre installation locale : "%s"'

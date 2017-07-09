@@ -7,6 +7,7 @@ options:
     db-pass: 'Mot de passe de la base de données'
     db-prefix: 'Préfixe de la base de données'
     db-port: 'Port de la base de données'
+    source-base_path: 'Local file directory containing your source site (e.g. /var/www/docroot), or your site address (for example http://example.com)'
     files-directory: 'Répertoire des fichiers'
 questions:
     db-type: 'Type de base de données de l''installation Drupal'
@@ -16,6 +17,7 @@ questions:
     db-pass: 'Mot de passe de la base de données'
     db-prefix: 'Préfixe de la base de données'
     db-port: 'Port de la base de données'
+    source-base_path: 'Local file directory containing your source site (e.g. /var/www/docroot), or your site address (for example http://example.com)'
     files-directory: 'Répertoire des fichiers'
 messages:
     not-drupal: 'La base de données source ne contient pas de version de Drupal détectable.'

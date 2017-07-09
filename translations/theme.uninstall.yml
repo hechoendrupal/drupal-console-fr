@@ -15,6 +15,6 @@ messages:
     theme-success: 'Le thème "%s" a été désinstallé avec succès'
     themes-success: 'Les thèmes "%s" ont été désinstallés avec succès'
     installed-themes: 'Seuls les thèmes installés seront listés dans l''autocomplétion'
-    invalid-theme-default: 'L'option par défaut n''est valide que pour un seul thème'
+    invalid-theme-default: 'L''option par défaut n''''est valide que pour un seul thème'
     error-default-theme: 'Le thème "%s" est le thème par défaut et ne peut pas être désinstallé.'
     error-admin-theme: 'Le thème "%s" est le thème d''administration et ne peut pas être désinstallé.'

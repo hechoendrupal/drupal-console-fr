@@ -1,12 +1,19 @@
 description: 'Affiche les services actuels d''une application.'
 arguments:
     service: 'Nom du service.'
+    method: 'Method name.'
+    arguments: 'Array of Arguments in CSV or JSON format.'
 messages:
     service_id: 'ID du service'
     class_name: 'Nom de classe.'
-    service: 'Service'
-    class: 'Classe'
-    interface: 'Interface(s)'
+    service: Service
+    class: Classe
+    interface: Interface(s)
     parent: 'Classe parente'
-    variables: 'Variables'
-    methods: 'Méthodes'
+    variables: Variables
+    methods: Méthodes
+    arguments: Arguments
+    method: Method
+    return: Return
+errors:
+    method_not_exists: 'This method doesn''t exists in this service.'

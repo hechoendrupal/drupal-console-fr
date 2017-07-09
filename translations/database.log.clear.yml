@@ -8,4 +8,11 @@ options:
 messages:
     event-deleted: 'L''événement "%s" a été supprimé'
     clear-error: 'Le processus de vidage a échoué, veuillez vérifier les filtres utilisés'
-    clear-sucess: 'Vidage de la table des événements réussie' 
+    clear-sucess: 'Vidage de la table des événements réussie'
+examples:
+    -
+        description: 'Clear the database log from DBLog table'
+        execution: "drupal database:log:clear \\\n  <database>"
+    -
+        description: 'Clear the database log from DBLog table using filters'
+        execution: "drupal database:log:clear \\\n  <database> \\\n  --type=TYPE \\\n  --severity=SEVERITY"

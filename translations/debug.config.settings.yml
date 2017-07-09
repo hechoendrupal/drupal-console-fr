@@ -1,5 +1,9 @@
 description: 'Affiche la paire key:value du fichier de configuration.'
-help: 'La commande <info>config:settings:debug</info> vous permet d'afficher la paire key:value du fichier de configuration.'
+help: 'La commande <info>config:settings:debug</info> vous permet d''afficher la paire key:value du fichier de configuration.'
 welcome: 'Bienvenue sur la commande de Débug du fichier de Settings de la Configuration de Drupal'
 messages:
     current: 'Paire key:value du fichier de configuration'
+examples:
+    -
+        description: 'Displays key:value as per the settings file'
+        execution: "drupal debug:config:settings\n"

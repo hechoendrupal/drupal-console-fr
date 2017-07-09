@@ -25,3 +25,4 @@ messages:
     already-installed: 'Drupal est déjà installé, essayez de supprimer votre base de données en utilisant database:drop et lancez ensuite à nouveau site:install'
     sites-backup: 'Le fichier sites.php file a été temporairement renommé backup.sites.php pendant l''installation de Drupal.'
     sites-restore: 'La sauvegarde de sites.php a été restaurée dans sites.php.'
+    invalid-multisite: 'Invalid multisite, please create multisite using command drupal multisite:new %s "%s"'

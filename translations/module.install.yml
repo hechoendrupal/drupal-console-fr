@@ -27,3 +27,4 @@ messages:
     no-releases: 'Il n''y a aucune version du module "%s" disponible'
     installing: 'Module(s) "%s" en cours d''installation'
     composer: 'Le module a été installé avec succès via Composer'
+    error-creating-folder: 'Error creating folder "%s", please check your permissions'

@@ -8,7 +8,7 @@ messages:
     fields-none: 'Aucun champ trouvé'
     entity-type: 'Type d''entité fieldable'
     bundle-type: 'Type de bundle'
-    not-found: 'introuvable'
+    not-found: introuvable
     in-entity-type: 'dans le type d''entité'
     in-bundle-type: 'dans le type de bundle'
 table:

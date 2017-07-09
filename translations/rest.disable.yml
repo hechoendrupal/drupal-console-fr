@@ -7,3 +7,4 @@ questions:
 messages:
     invalid-rest-id: 'L''ID Rest "%s" est invalide'
     success: 'ID Rest "%s" désactivé'
+    already-disabled: 'Rest ID "%s" was already disabled'

@@ -4,3 +4,10 @@ messages:
     executing-cron: 'Execution des tâches cron du module "%s"'
     success: 'Toutes les implantations cron demandées ont été exécutées avec succès.'
     lock: 'Tentative de relancer le cron alors qu''il est déjà en route'
+examples:
+    -
+        description: 'Execute the cron globally'
+        execution: "drupal cron:execute\n"
+    -
+        description: 'Execute the cron on the specified module'
+        execution: "drupal cron:execute \\\n  <module>\n"

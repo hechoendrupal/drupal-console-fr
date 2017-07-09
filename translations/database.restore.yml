@@ -7,3 +7,7 @@ messages:
     success: 'Base de données restorée depuis :'
     no-file: 'L''option file est manquante'
 help: 'Restaurer une structure et les contenus d''une base de données.'
+examples:
+    -
+        description: 'Restore the database file dump to the database default or another one specified'
+        execution: "drupal database:restore \\\n  --file='/srv/dump/db.sql'\n"

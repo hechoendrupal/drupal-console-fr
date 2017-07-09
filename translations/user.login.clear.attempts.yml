@@ -10,4 +10,4 @@ messages:
     successful: 'Les tentatives de connexion ont été nettoyées avec succès pour l''utilisateur "%s".'
 errors:
     invalid-user: 'Impossible de charger l''entité de l''utilisateur (Uid: "%s").'
-    no-flood: 'Pas de table flood dans le système.'  
+    no-flood: 'Pas de table flood dans le système.'

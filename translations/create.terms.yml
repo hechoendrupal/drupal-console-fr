@@ -16,3 +16,10 @@ messages:
     name: Nom
     invalid-vocabularies: 'Vocabulaire(s) "%s" non valide(s)'
     created-terms: 'Génération de "%s" termes avec succès'
+examples:
+    -
+        description: 'Provide the vocabulary term name.'
+        execution: 'drupal create:terms vocabulary'
+    -
+        description: 'Provide the limit of terms to add and limit of title words.'
+        execution: "drupal create:terms tags \\\n  --limit=\"10\" \\\n  --name-words=\"5\"\n"

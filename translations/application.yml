@@ -33,14 +33,31 @@ messages:
         route: "Afin de créer des pages, il est nécessaire de définir des routes.\nUne route mappe un chemin d'URL à un contrôleur. Elle définit quelle fonction\nou méthode sera appelée quand cette URL est appelée.\nSi l'utilisateur accède http://drupal8.dev/{{ route }}, le routage\nsystème va chercher un itinéraire pour ce chemin. Dans ce cas, il va chercher une\ncorrespondance, et exécuter l'appel _controller. La fonction de rappel est\ndéfinie comme un nom de classe\n(\"\\Drupal\\{{ module }}\\Controller\\{{ class_name }}\")\net la méthode (\"{{ method_name }}\")."
     autocomplete: "Bash ou Zsh : Ajouter cette ligne à votre fichier de configuration :\n<info>source \"$HOME/.console/console.rc\" 2>/dev/null</info>\n\nFish : Créez un lien symbolique \n<info>ln -s ~/.console/drupal.fish ~/.config/fish/completions/drupal.fish</info>\n"
     version: '<info>"%s"</info> version <comment>"%s"</comment>'
+    disable:
+        command:
+            error: 'Command: "%s" is deprecated.'
+            extra: 'You must execute: "%s" instead'
 errors:
     invalid-command: 'La commande "%s" n''est pas un nom de commande valide.'
 site:
     messages:
         path: 'Chemin du site'
     errors:
-        directory: 'Afin de lister l''ensemble des commandes disponibles, vous devez lancer cette commande à la racine du dossier drupal.'
         settings: 'Afin de lister l''ensemble des commandes disponibles vous devez commencer par installer drupal.'
+        directory: 'Afin de lister l''ensemble des commandes disponibles, vous devez lancer cette commande à la racine du dossier drupal.'
+        not-installed: 'Drupal Console is not installed at: %s'
+        execute-composer: 'You must execute the following composer commands:'
+        missing-config-file: 'Missing configuration file, possible paths:'
+        missing-config-file-command: 'Execute "drupal init" command to generate one'
 user:
     messages:
         path: 'Dossier personnel de l''utilisateur'
+remote:
+    errors:
+        passphrase-missing: 'Passphrase file is missing'
+        passphrase-empty: 'Passphrase file is empty'
+        private-missing: 'Private file is missing'
+        private-empty: 'Private file is empty'
+        private-invalid: 'Private file is invalid'
+        invalid-root: 'Invalid root directory'
+        console-not-found: 'Drupal Console not found on this site'

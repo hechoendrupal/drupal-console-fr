@@ -16,4 +16,4 @@ messages:
     not-found: 'Debug est introuvable. Essayez de mettre l''id du test entre guillemets.'
     success-groups: 'Tous les groupes de tests ont été listés avec succès, utilisez le groupe en argument pour filter les tests unitaires par groupe, par exemple : $ drupal test:debug Url'
     success-group: 'Tous les tests unitaires du groupe "%s" ont été listés avec succès'
-    id: 'ID du test unitaire' 
+    id: 'ID du test unitaire'

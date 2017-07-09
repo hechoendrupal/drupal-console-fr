@@ -15,5 +15,4 @@ messages:
     error-creating-folder: 'Erreur dans la création du dossier "%s", merci de vérifier vos permssions'
 tips:
     -
-         tip: 'Passer la valeur «true» à la clé «shellexec_output» dans votre fichier config.yml pour voir interactivement la sortie de Composer ou bien «false» pour la cacher'
- 
+        tip: 'Passer la valeur «true» à la clé «shellexec_output» dans votre fichier config.yml pour voir interactivement la sortie de Composer ou bien «false» pour la cacher'

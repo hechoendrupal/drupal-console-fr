@@ -14,4 +14,4 @@ examples:
         execution: 'drupal cr all'
     -
         description: 'Reconstruire le cache "discovery"'
-        execution: 'drupal cr discovery' 
+        execution: 'drupal cr discovery'

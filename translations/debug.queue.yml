@@ -1,5 +1,5 @@
 description: 'Affiche la queue de votre application'
 messages:
-  queue: 'Queue'
-  items: 'Items'
-  class: 'Classe' 
+    queue: Queue
+    items: Items
+    class: Classe

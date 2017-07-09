@@ -2,6 +2,8 @@ options:
     class: 'Nom de la classe'
     events: 'Charger des événements depuis le conteneur.'
     module: 'Le nom du module.'
+    extension: 'The extension name.'
+    extension-type: 'The extension type.'
     services: 'Charger des services depuis le conteneur.'
     tags: 'Assigner des tags au service depuis le conteneur.'
     inputs: 'Créer des entrées dans un formulaire.'
@@ -9,6 +11,8 @@ options:
 questions:
     class: 'Entrez le nom de la classe'
     module: 'Entrez le nom du module.'
+    extension: 'Enter the extension name'
+    extension-type: 'Enter the extension type'
     confirm: 'Confirmez-vous la génération'
     canceled: 'Génération de commande annulée.'
     events:

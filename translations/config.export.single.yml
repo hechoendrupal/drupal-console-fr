@@ -1,12 +1,20 @@
 description: 'Exporte une unique configuration sous la forme d''un fichier YAML.'
 arguments:
+    name: 'Configuration name.'
     config-name: 'Nom de la configuration.'
 options:
     include-dependencies: 'Exportez également les dépendances d''une configuration.'
     simple-configuration: 'Configuration simple'
+    optional: 'Export config as an optional YAML configuration in your module'
+    remove-uuid: 'If set, the configuration will be exported without uuid key.'
+    remove-config-hash: 'If set, the configuration will be exported without the default site hash key.'
     optional-config: 'Exportez la config sous la forme d''un fichier YAML optionnel dans votre module'
 questions:
     config-type: 'Type de configuration'
+    name: 'Configuration name'
+    optional: 'Export config in module as an optional configuration'
+    remove-uuid: 'Do you want to remove the uuid from this export'
+    remove-config-hash: 'Do you want to remove the default site hash from this export'
     config-name: 'Nom de la configuration'
     optional-config: 'Exporter la config dans un module sous la forme d''une configuration optionnelle'
 messages:
@@ -14,4 +22,12 @@ messages:
     export: 'La configuration a été exportée dans le fichier "%s".'
     invalid-config-type: 'Type de configuration invalide, veuillez choisir un élément de la liste'
     invalid-config-name: 'Nom de configuration invalide, veuillez choisir un élément de la liste'
+    config-exported: 'Configuration(s) exported sucessfully'
     config_exported: 'Configuration(s) exportée(s) avec succès'
+examples:
+    -
+        description: 'Provide config settings name to be exported'
+        execution: "drupal config:export:single \\\n  --name=config.settings.name"
+    -
+        description: 'if uuid and/or config hashes will be removed.'
+        execution: "drupal config:export:single \\\n  --name=config.settings.name \\\n  --remove-uuid \\\n  --remove-config-hash\n"

@@ -10,4 +10,4 @@ messages:
     no-user-found: 'Le nom d''utilisateur "%s" est introuvable !'
     no-role-found: 'Le rôle "%s" est introuvable !'
     add-success: 'Le rôle %2$s a été ajouté avec succès à l''utilisateur %1$s'
-    remove-success: 'Le rôle %2$s a été retiré avec succès à l''utilisateur %1$s'  
+    remove-success: 'Le rôle %2$s a été retiré avec succès à l''utilisateur %1$s'

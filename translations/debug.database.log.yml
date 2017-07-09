@@ -2,13 +2,15 @@ description: 'Affiche les entrées courantes du journal pour l''application'
 arguments:
     event-id: 'ID de l''événement du DBLog'
 options:
-    type: 'Filtrer les événements selon un type spécifique'
-    severity: 'Filtrer les événements selon un niveau spécifique de sévérité'
-    user-id: 'Filtrer les événements selon un user id spécifique'
     asc: 'Lister les événements par ordre ascendant'
     limit: 'Limiter les résultats à un nombre spécifique'
     offset: 'Point de départ d''une limite'
+    yml: 'Print in a yml style'
+    type: 'Filtrer les événements selon un type spécifique'
+    severity: 'Filtrer les événements selon un niveau spécifique de sévérité'
+    user-id: 'Filtrer les événements selon un user id spécifique'
 messages:
+    not-found: 'L''événement du DBLog "%s" n''a pas été trouvé'
     event-id: 'ID de l''événement'
     type: Type
     date: Date
@@ -16,4 +18,3 @@ messages:
     user: Utilisateur
     severity: Sévérité
     invalid-severity: 'Le type de sévérité est invalide, le filtre a été ignoré'
-    not-found: 'L''événement du DBLog "%s" n''a pas été trouvé'

@@ -14,4 +14,5 @@ messages:
     file-not-found: 'Fichier introuvable dans "%s" ni dans "%s"'
     local-file-not-found: 'Fichier introuvable dans "%s"'
     translation-not-determined: 'L''emplacement du fichier de traduction n''a pas pu être déterminé.'
-    translation-project-updated: Mis à jour
+    translation-project-updated: 'Mis à jour'
+    translation-project-available: 'New translation available'

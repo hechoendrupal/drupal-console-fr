@@ -9,8 +9,8 @@ questions:
     roles: 'Sélectionner le(s) rôle(s) associé(s) aux utilisateurs à supprimer'
 messages:
     user-id: 'ID de l''utilisateur'
-    username: Nom d''utilisateur
-    user-deleted: 'L'utilisateur "%s" a été supprimé avec succès'
+    username: 'Nom d''''utilisateur'
+    user-deleted: 'L''utilisateur "%s" a été supprimé avec succès'
     users-deleted: 'Les utilisateurs "%s" ont été supprimés avec succès'
 errors:
     invalid-user-id: 'L''id de l''utilisateur "%s" est invalide'

@@ -6,3 +6,10 @@ questions:
     config-name: 'Choisissez la configuration à modifier'
 messages:
     no-directory: 'Une erreur est survenue lors de la création du répertoire'
+examples:
+    -
+        description: 'Edit system cron configurations with "vim" (default editor).'
+        execution: 'drupal config:edit system.cron'
+    -
+        description: 'Edit system cron configurations with "gedit".'
+        execution: 'drupal config:edit system.cron gedit'
