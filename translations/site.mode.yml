@@ -16,3 +16,10 @@ messages:
     error-copying-file: 'Erreur lors de la copie du fichier'
     error-writing-file: 'Erreur lors de la copie du fichier'
     services-file-overwritten: 'Le fichier de services "%s" a été surchargé'
+examples:
+    -
+        description: 'Switch system to prod'
+        execution: 'drupal site:mode  prod'
+    -
+        description: 'Switch system to dev'
+        execution: "drupal site:mode  dev\n"

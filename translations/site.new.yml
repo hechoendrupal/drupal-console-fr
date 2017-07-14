@@ -24,6 +24,3 @@ questions:
     directory: 'Entrez le nom du dossier lors du téléchargement de Drupal'
     composer-release: 'Merci de choisir une version Packagist Drupal'
     stable: 'Souhaitez-vous utiliser des versions stables ?'
-tips:
-    -
-        tip: 'Passer la valeur «true» à la clé «shellexec_output» dans votre fichier config.yml pour voir interactivement la sortie de Composer ou bien «false» pour la cacher'

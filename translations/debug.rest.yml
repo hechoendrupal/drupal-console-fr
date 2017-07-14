@@ -6,12 +6,18 @@ options:
 messages:
     id: 'ID Rest'
     label: Etiquette
-    canonical_url: 'URL canonique'
+    canonical-url: 'Canonical URL'
     status: Statut
     provider: Fournisseur
     enabled: Activé
     disabled: Désactivé
     rest-state: 'Etats Rest'
     supported-formats: 'Formats supportés'
-    supported_auth: 'Systèmes d''authentification supportés'
+    supported-auth: 'Supported Authentication Providers'
     not-found: 'Ressource Rest "%s" introuvable'
+    canonical_url: 'URL canonique'
+    supported_auth: 'Systèmes d''authentification supportés'
+examples:
+    -
+        description: 'Displays rest hooks'
+        execution: "drupal debug:rest\n"

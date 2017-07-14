@@ -11,6 +11,7 @@ options:
     db-prefix: 'Préfixe de la base de données'
     db-port: 'Port de la base de données'
     exclude: 'Id(s) de migration à exclure'
+    source-base-path: 'Local file directory containing your source site (e.g. /var/www/docroot), or your site address (for example http://example.com)'
     source-base_path: 'Local file directory containing your source site (e.g. /var/www/docroot), or your site address (for example http://example.com)'
 questions:
     id: 'Id de migration'
@@ -25,6 +26,7 @@ questions:
     db-prefix: 'Préfixe de la base de données'
     db-port: 'Port de la base de données'
     invalid-migration-id: 'L''Id de migration "%s" est invalide'
+    source-base-path: 'Local file directory containing your source site (e.g. /var/www/docroot), or your site address (for example http://example.com)'
     source-base_path: 'Local file directory containing your source site (e.g. /var/www/docroot), or your site address (for example http://example.com)'
 messages:
     processing: 'Migration "%s" en cours de traitement'

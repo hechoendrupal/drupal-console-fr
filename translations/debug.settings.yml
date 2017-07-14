@@ -3,3 +3,7 @@ messages:
     config-key: 'Clé de configuration'
     config-value: 'Valeur de configuration'
     config-file: 'Fichier de configuration'
+examples:
+    -
+        description: ''
+        execution: "drupal debug:settings\n"

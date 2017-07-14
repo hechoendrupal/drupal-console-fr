@@ -26,3 +26,7 @@ messages:
     copy-default: 'The default install was successfully copied to "sites/%s".'
     fresh-site: 'La nouvelle structure multi-sites a été créée avec succès dans sites/"%s" et prête pour l''installation.'
     copy-install: 'L''installation par défaut a été copiée avec succès dans sites/"%s".'
+examples:
+    -
+        description: 'Set up files for a multisite install specifying destination path and uri'
+        execution: "drupal multisite:new  vendor/newsite http://mysite.example.com\n"

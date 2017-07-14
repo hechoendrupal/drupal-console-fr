@@ -4,3 +4,7 @@ arguments:
 messages:
     rebuilding: 'Reconstruction des routes en cours, veuillez patienter'
     completed: 'Reconstruction des routes terminée.'
+examples:
+    -
+        description: 'Rebuild routes'
+        execution: 'drupal router:rebuild'

@@ -2,4 +2,10 @@ description: 'Active une vue'
 messages:
     enabled-successfully: 'La vue "%s" a été activée avec succès.'
     disabled-successfully: 'La vue "%s" a été désactivée.'
-disabled-successfully: 'La vue "%s" a été désactivée.'
+examples:
+    -
+        description: 'Enable content view'
+        execution: "drupal views:enable  content\n"
+    -
+        description: 'Enable frontpage view'
+        execution: "drupal views:enable  frontpage\n"

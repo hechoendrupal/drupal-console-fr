@@ -4,13 +4,16 @@ options:
 questions:
     chain-file: 'Sélectionnez le fichier chain à exécuter'
 messages:
-    missing_file: 'Vous devez fournir un chemin et nom de fichier valide.'
-    invalid_file: 'Le fichier "%s" n''existe pas.'
-    module_install: 'La commande module:install ne peut être lancé dans une séquence et doit être lancée indépendamment.'
+    missing-file: 'You must provide a valid file path and name.'
+    invalid-file: 'The file "%s" does not exist.'
+    module-install: 'module:install command is not runnable inside a chain queue and must be run independently.'
     missing-environment-placeholders: 'Il manque le(s) placeholder(s) de l''environnement "%s"'
     set-environment-placeholders: 'Renseignez les placeholders de l''environnement :'
     missing-inline-placeholders: 'Il manque le(s) placeholder(s) en ligne "%s"'
     set-inline-placeholders: 'Renseignez les placeholders inline :'
+    missing_file: 'Vous devez fournir un chemin et nom de fichier valide.'
+    invalid_file: 'Le fichier "%s" n''existe pas.'
+    module_install: 'La commande module:install ne peut être lancé dans une séquence et doit être lancée indépendamment.'
 examples:
     -
         description: 'Providing a file option using full path.'

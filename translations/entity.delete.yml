@@ -9,3 +9,7 @@ questions:
     entity-id: 'Entrez l''ID de l''entité à supprimer'
 messages:
     deleted: 'L'' entité %s avec l'' id %s a été supprimée avec succès'
+examples:
+    -
+        description: 'Delete entity type content using node id'
+        execution: 'drupal entity:delete node 1'

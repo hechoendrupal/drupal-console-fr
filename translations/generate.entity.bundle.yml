@@ -11,3 +11,7 @@ questions:
     bundle-title: 'Entrez le nom lisible par les utilisateurs de votre type de contenu'
 message:
     error-state1: placeholder
+examples:
+    -
+        description: 'Generate bundle entity specifying the module, the bundle name and its title'
+        execution: "drupal generate:entity:bundle  \\\n  --module=\"modulename\"  \\\n  --bundle-name=\"default\"  \\\n  --bundle-title=\"default\""

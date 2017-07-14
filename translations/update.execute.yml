@@ -6,3 +6,7 @@ messages:
     executing-update: 'Exécution de la fonction de mise à jour "%s" du module "%s"'
     module-update-function-not-found: 'Le module "%s" n''a pas de fonction de mise à jour "%s"'
     executing-required-previous-updates: 'Exécution des précédentes mises à jour requises'
+examples:
+    -
+        description: 'Update all entities'
+        execution: "drupal update:execute\n"
