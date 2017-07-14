@@ -3,3 +3,7 @@ messages:
     start: 'Démarrage des mises à jour d''entités'
     end: 'Les mises à jour d''entités sont terminées'
     error: 'Erreur lors de la mise à jour des entités'
+examples:
+    -
+        description: 'Update entities'
+        execution: "drupal update:entities\n"

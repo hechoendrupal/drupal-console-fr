@@ -11,3 +11,7 @@ messages:
     success: 'La configuration de "%s" a été actaulisée à "%s" dans Drupal Console'
     missing-file: 'le fichier de configuration "%s" est introuvable, essayez d''exécuter `drupal init`'
     missing-language: 'Provided language: "%s", not found'
+examples:
+    -
+        description: 'Set application language setting value to "es"'
+        execution: 'drupal settings:set  application.language es'

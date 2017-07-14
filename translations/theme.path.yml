@@ -1,6 +1,11 @@
 description: 'Renvoie le chemin relatif du thème (ou le chemin absolu)'
 arguments:
+    theme: 'Theme name'
     module: 'Le nom du thème (nom machine)'
 options:
     absolute: 'Renvoie le chemin absolu du thème'
 messages: null
+examples:
+    -
+        description: 'Get the path of mytheme'
+        execution: "drupal theme:path  mytheme\n"

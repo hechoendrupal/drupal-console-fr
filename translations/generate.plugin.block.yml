@@ -20,3 +20,7 @@ questions:
 messages:
     inputs: "\nVous pouvez ajouter des champs d'entrée pour créer des configurations spéciales dans chaque bloc.\nCette option est facultative, appuyez sur <info>Entrée</ info> pour <info>continuer</ info>"
     invalid-theme-region: 'La région "%s" n''est pas valide'
+examples:
+    -
+        description: 'Generate a plugin block in the header region with an input field specifying the module name, the class, the label, its id, the region and the input'
+        execution: "drupal generate:plugin:block  \\\n  --module=\"modulename\"  \\\n  --class=\"DefaultBlock\"  \\\n  --label=\"Default block\"  \\\n  --plugin-id=\"default_block\"  \\\n  --theme-region=\"header\"  \\\n  --inputs='\"name\":\"inputtext\", \"type\":\"text_format\", \"label\":\"InputText\", \"options\":\"\", \"description\":\"Just an input text\", \"maxlength\":\"\", \"size\":\"\", \"default_value\":\"\", \"weight\":\"0\", \"fieldset\":\"\"'"

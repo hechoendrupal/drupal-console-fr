@@ -5,3 +5,7 @@ options:
     module: 'Le nom du module'
 questions:
     module: 'Entrez le nom du module'
+examples:
+    -
+        description: 'Generate the .module file specifying the module name'
+        execution: "drupal generate:module:file  \\\n  --module=\"modulename\""

@@ -15,3 +15,7 @@ questions:
     plugin-id: 'Entrez l''ID du plugin. NOTE: Correspond au nom du plugin CKEditor. Il s''agit du premier argument de la fonction CKEDITOR.plugins.add() dans le fichier plugin.js.'
     button-name: 'Entrez le nom du bouton. NOTE: Correspond au nom du bouton de CKEditor. Il s''agit du premier argument de la fonction editor.ui.addButton() ou de la fonction editor.ui.addRichCombo() dans le fichier plugin.js.'
     button-icon-path: 'Entrez le chemin de l''icône du bouton'
+examples:
+    -
+        description: 'Generate CKEditor button specifying the module name, the class, the label, its id, the button name and the icon path'
+        execution: "drupal generate:plugin:ckeditorbutton  \\\n  --module=\"modulename\"  \\\n  --class=\"DefaultCKEditorButton\"  \\\n  --label=\"Default ckeditor button\"  \\\n  --plugin-id=\"default ckeditor button\"  \\\n  --button-name=\"Default ckeditor button\"  \\\n  --button-icon-path=\"modules/custom/modulename/js/plugins/default ckeditor button/images/icon.png\""

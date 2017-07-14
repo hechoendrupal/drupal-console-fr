@@ -5,3 +5,7 @@ messages:
     site: Site
     directory: Dossier
     site-format: 'Les sites sont écrits en utilisant le format : <port>.<domain>.<path>'
+examples:
+    -
+        description: 'Displays multisite information'
+        execution: "drupal debug:multisite\n"

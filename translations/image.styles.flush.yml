@@ -6,3 +6,10 @@ options:
     image-style: 'Le nom des styles d''image.'
 questions:
     image-style: 'Sélectionner les styles d''image pour lesquels vous souhaitez vider le cache.'
+examples:
+    -
+        description: 'Flush large image style'
+        execution: 'drupal image:styles:flush  large'
+    -
+        description: 'Flush thumbnail image style'
+        execution: "drupal image:styles:flush  thumbnail\n"

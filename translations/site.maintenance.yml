@@ -6,3 +6,10 @@ messages:
     maintenance-off: 'Le mode maintenance du site est désactivé'
 errors:
     invalid-mode: 'Le mode maintenance est invalide'
+examples:
+    -
+        description: 'Switch on maintenance'
+        execution: 'drupal site:maintenance  on'
+    -
+        description: 'Switch off maintenance'
+        execution: "drupal site:maintenance  off\n"

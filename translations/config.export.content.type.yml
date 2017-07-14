@@ -7,6 +7,7 @@ questions:
     optional-config: 'Export du type de contenu dans un module comme configuration optionnelle'
     content_type: 'Le type de contenu à exporter'
 messages:
+    content-type-exported: 'Exporting content type'
     content_type_exported: 'Export du type de contenu'
 options:
     optional-config: 'Export du type de contenu dans votre module sous la forme d''un fichier YAML de configuration optionnelle'

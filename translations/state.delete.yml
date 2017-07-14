@@ -5,3 +5,7 @@ messages:
     enter-name: 'Le nom de l''Etat doit contenir une valeur.'
     state-not-exists: 'L''Etat "%s" n''existe pas.'
     deleted: 'L''Etat "%s" a été supprimé avec succès.'
+examples:
+    -
+        description: 'Delete state specifying the state name'
+        execution: "drupal state:delete  comment.maintain_entity_statistics\n"

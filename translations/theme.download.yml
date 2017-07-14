@@ -13,6 +13,7 @@ messages:
     select-release: 'Merci de sélectionner la version souhaitée'
     outside-drupal: 'La racine Drupal ne peut être déterminée. Utiliser --root pour indiquer la destination, qui sera utilisée à la place du dossier courant.'
     error-creating-folder: 'Erreur dans la création du dossier "%s", merci de vérifier vos permssions'
-tips:
+examples:
     -
-        tip: 'Passer la valeur «true» à la clé «shellexec_output» dans votre fichier config.yml pour voir interactivement la sortie de Composer ou bien «false» pour la cacher'
+        description: 'Download theme specifying name and version'
+        execution: "drupal theme:download  Alina 7.x-1.2\n"

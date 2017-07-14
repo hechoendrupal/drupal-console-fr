@@ -16,3 +16,7 @@ messages:
     display-name: Nom
     display-description: Description
     display-paths: Chemins
+examples:
+    -
+        description: 'List of views on the site'
+        execution: "drupal debug:views\n"

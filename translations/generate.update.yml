@@ -6,3 +6,7 @@ questions:
     update-n: 'Merci d''entrer le N de mise à jour à implémenter'
 messages:
     wrong-update-n: 'Le numéro de mise à jour "%s" est invalide'
+examples:
+    -
+        description: 'Generate an update N hook implementation specifying the module name and the N value'
+        execution: "drupal generate:update  \\\n  --module=\"modulename\"  \\\n  --update-n=\"8001\"\n"

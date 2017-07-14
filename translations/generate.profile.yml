@@ -19,3 +19,7 @@ warnings:
     module-unavailable: 'Attention les modules suivants ne sont pas encore disponibles dans votre environnement local "%s"'
 errors:
     directory-exists: 'Le dossier cible "%s" n''est pas vide.'
+examples:
+    -
+        description: 'Generate a profile specifying the profile name, the machine name, a description, the core and its module dependencies'
+        execution: "drupal generate:profile  \\\n  --profile=\"NewProfileName\"  \\\n  --machine-name=\"newprofilename\"  \\\n  --description=\"My Useful Profile\"  \\\n  --core=\"8.x\"  \\\n  --dependencies=\"modulename\"\n"

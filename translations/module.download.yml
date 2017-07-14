@@ -18,6 +18,7 @@ messages:
     error-creating-folder: 'Erreur de création du dossier "%s", merci de vérifier vos permissions'
     no-composer-repo: 'Merci de configurer Composer dans ~/.console/config.yml'
     composer: 'Le module "%s" a été téléchargé avec succès via Composer'
-tips:
+examples:
     -
-        tip: 'Passer la valeur «true» à la clé «shellexec_output» dans votre fichier config.yml pour voir de manière interactive la sortie de Composer ou «false» pour la cacher'
+        description: 'Download module specifying module name and its path'
+        execution: "drupal module:download  modulename  \\\n  --path=\"modules/contrib\"\n"
