@@ -35,8 +35,8 @@ messages:
     version: '<info>"%s"</info> version <comment>"%s"</comment>'
     disable:
         command:
-            error: 'Command: "%s" is deprecated.'
-            extra: 'You must execute: "%s" instead'
+            error: 'la commande: "%s" est dépreciée.'
+            extra: 'Vous devez utiliser: "%s" à la place'
 errors:
     invalid-command: 'La commande "%s" n''est pas un nom de commande valide.'
     renamed-command: 'Command "%s" was renamed, use "%s" instead.'
@@ -55,24 +55,24 @@ user:
         path: 'Dossier personnel de l''utilisateur'
 remote:
     errors:
-        passphrase-missing: 'Passphrase file is missing'
-        passphrase-empty: 'Passphrase file is empty'
-        private-missing: 'Private file is missing'
-        private-empty: 'Private file is empty'
-        private-invalid: 'Private file is invalid'
-        invalid-root: 'Invalid root directory'
-        console-not-found: 'Drupal Console not found on this site'
+        passphrase-missing: 'Le fichier de Passphrase n''existe pas'
+        passphrase-empty: 'Le fichier de Passphrase est manquant'
+        private-missing: 'Le fichier privé n''existe pas'
+        private-empty: 'Le fichier privé est vide'
+        private-invalid: 'Le fichier privé n''est pas valide'
+        invalid-root: 'Dossier racine invalide'
+        console-not-found: 'Drupal Console non trouvé sur ce site'
 gitbook:
     messages:
-        title: 'Available Drupal Console Commands'
+        title: 'Commandes Drupal Console Disponibles'
         note: Note
-        note-description: 'Drupal Console commands *must* be run from the root of a Drupal 8 installation'
-        command: 'Drupal Console Command'
+        note-description: 'Les commandes Drupal Console commands *doivent*  être executées depuis la racine d'' une installation Drupal 8'
+        command: 'Commande Drupal Console'
         command_description: 'The **"%s"** command "%s"'
-        usage: Usage
-        options: 'Available options'
+        usage: 'Utilisation'
+        options: 'Options disponibles'
         option: Option
-        details: Details
-        arguments: 'Available arguments'
-        argument: Argument
-        examples: Examples
+        details: 'Détails'
+        arguments: 'Paramètres disponibles'
+        argument: Paramètre
+        examples: Exemples
