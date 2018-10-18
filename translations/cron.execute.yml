@@ -2,12 +2,12 @@ description: 'Lancer une tâche cron d''un module particulier ou l''ensembles de
 messages:
     module-invalid: 'Le module "%s" ne définit pas de tâche cron'
     executing-cron: 'Execution des tâches cron du module "%s"'
-    success: 'Toutes les implantations cron demandées ont été exécutées avec succès.'
-    lock: 'Tentative de relancer le cron alors qu''il est déjà en route'
+    success: 'Toutes les implémentations cron demandées ont été exécutées avec succès.'
+    lock: 'Tentative de relancer le cron alors qu''il est déjà en cours d'exécution'
 examples:
     -
-        description: 'Execute the cron globally'
+        description: 'Lance le cron global'
         execution: "drupal cron:execute\n"
     -
-        description: 'Execute the cron on the specified module'
+        description: 'Lance les taches cron du module spécifié'
         execution: "drupal cron:execute \\\n  <module>\n"
