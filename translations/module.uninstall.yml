@@ -1,11 +1,13 @@
 description: 'Désinstalle le ou les modules de l''application'
+arguments:
+    module: 'Module or modules to be uninstalled should be separated by a space'
 questions:
     module: 'Entrez le nom du module'
     invalid-module: 'Module "%s" invalide'
 options:
-    module: 'Les modules à désinstaller doivent être séparés par une virgule'
     force: 'Souhaitez-vous ignorer les dépendances et forcer la désinstallation du module ?'
     composer: 'Désinstalle le module via Composer'
+    module: 'Les modules à désinstaller doivent être séparés par une virgule'
 messages:
     no-modules: 'Vous devez indiquer le ou les modules à désinstaller.'
     dependents: 'Impossible de désinstaller les modules "%s" car ils sont requis par "%s"'

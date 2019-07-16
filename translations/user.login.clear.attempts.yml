@@ -1,8 +1,9 @@
 description: 'Nettoie les tentatives de connexion ratés pour un compte.'
 help: 'La commande <info>user:login:clear:attempts</info> réinitialise les tentatives de connexion ratés pour un compte.'
-options:
-    user-id: 'ID de l''utilisateur.'
+arguments:
+    user: 'User name/id.'
 questions:
+    user: 'Enter User name/id'
     uid: 'Entrez l''ID de l''utilisateur.'
     numeric-uid: 'L''ID de l''utilisateur doit être un entier.'
     invalid-uid: 'L''ID de l''utilisateur doit être supérieur à zéro.'

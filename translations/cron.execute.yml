@@ -3,7 +3,7 @@ messages:
     module-invalid: 'Le module "%s" ne définit pas de tâche cron'
     executing-cron: 'Execution des tâches cron du module "%s"'
     success: 'Toutes les implémentations cron demandées ont été exécutées avec succès.'
-    lock: 'Tentative de relancer le cron alors qu''il est déjà en cours d'exécution'
+    lock: 'Tentative de relancer le cron alors qu''''il est déjà en cours d''exécution'
 examples:
     -
         description: 'Lance le cron global'

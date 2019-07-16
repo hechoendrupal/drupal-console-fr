@@ -2,6 +2,7 @@ description: 'Lance un test unitaire à partir des tests mis à disposition par 
 arguments:
     test-class: 'Classe de test'
     test-methods: 'Méthode(s) de test à exécuter'
+    url: 'Test url'
 messages:
     missing-dependency: 'Le test ne peut pas être exécuter à cause d''une dépendance manquante'
     phpunit-pending: 'La logique permettant d''exécuter un test PHPUnit n''est pas encore implémentée.'

@@ -1,23 +1,15 @@
 description: 'Affiche toutes les clefs de thème définies par les fonctions hook_theme'
-description: 'Affiche toutes les clefs de thème définies par les fonctions hook_theme'
-help: |
-  Affiche toutes les clefs de thème, ou la définition d'une clef spécifique.
-
-  Lister toutes les clefs de thème :
-  <info>drupal debug:theme:keys</info>
-
-  Affiche la définition pour la clef de thème item_list :
-  <info>drupal debug:theme:keys item_list</info>
+help: "Affiche toutes les clefs de thème, ou la définition d'une clef spécifique.\n\nLister toutes les clefs de thème :\n<info>drupal debug:theme:keys</info>\n\nAffiche la définition pour la clef de thème item_list :\n<info>drupal debug:theme:keys item_list</info>\n"
 arguments:
-    key: 'Clef'
+    key: Clef
 table-headers:
-    key: 'Clef'
+    key: Clef
     provider-type: 'Type de fournisseur'
-    provider: 'Fournisseur'
-    value: 'Valeur'
+    provider: Fournisseur
+    value: Valeur
 provider-types:
-    module: 'Module'
+    module: Module
     base-theme-engine: 'Moteur de thème de base'
     base-theme: 'Thème de base'
     theme-engine: 'Moteur de thème'
-    theme: 'Thème'
+    theme: Thème

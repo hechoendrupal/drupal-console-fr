@@ -22,6 +22,9 @@ questions:
         confirm: 'Voulez-vous charger les services formant le conteneur'
         message: "\nEntrez le nom du service ou utilisez les flèches \"haut\" ou \"bas\".\nFacultatif, appuyez sur<info>enter</info> afin de continuer\n"
         name: 'Entrez votre service'
+    roles:
+        message: "\nType the role name or use keyup or keydown.\nThis is optional, press <info>enter</info> to <info>continue</info>\n"
+        name: 'Enter your role'
     inputs:
         confirm: 'Voulez-vous générer une structure de formulaire'
         label: 'Entrez l''étiquette'
@@ -34,6 +37,7 @@ questions:
         weight: 'Poids du champ'
         title: Titre
         fieldset: Fieldset
+        new-field: 'Enter a new field properties'
         machine_name: 'Entrez le nom machine.'
 errors:
     module-dependency: 'Le module dépendant "%s" est manquant'
@@ -49,3 +53,4 @@ messages:
     drupal-core: 'Cœur de drupal'
     move-phar: 'Accéder à la console depuis n''importe quel endroit de votre système'
     quick-start: 'Télécharge, installe et lance un serveur pour Drupal 8'
+    available-field-types: 'Available types: <comment>%s</comment>'

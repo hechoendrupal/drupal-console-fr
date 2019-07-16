@@ -1,5 +1,7 @@
 description: 'Lancer une base de donnée client si disponible'
 arguments:
+    key: 'Database key from settings.php'
+    target: 'Database target from settings.php'
     database: 'Clé de la base de données depuis settings.php'
 messages:
     database-not-found: 'La connexion à la base de données "%s" n''a pas été trouvée'

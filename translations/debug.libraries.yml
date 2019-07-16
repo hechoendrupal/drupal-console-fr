@@ -2,8 +2,10 @@ description: 'Affiche les librairies disponibles dans l''application'
 options:
     name: 'Entrez le nom de la librairie'
 messages:
-    name: 'Extension des librairies'
+    extension: Extension
+    library: Library
     info: 'Information des librairies'
+    name: 'Extension des librairies'
 examples:
     -
         description: 'List all available libraries'
@@ -11,3 +13,6 @@ examples:
     -
         description: 'List block library information'
         execution: "drupal debug:libraries block\n"
+    -
+        description: 'List block/drupal.block library'
+        execution: "drupal debug:libraries block/drupal.block\n"

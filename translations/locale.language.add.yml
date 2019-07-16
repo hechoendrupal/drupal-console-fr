@@ -1,4 +1,8 @@
 description: 'Ajoute une langue à votre site'
 messages:
     invalid-language: 'Le code langue "%s" n''est pas valide'
+    invalid-languages: 'Languages "%s" are invalid'
     language-add-successfully: 'La langue "%s" a été correctement ajoutée.'
+    languages-add-successfully: 'Languages "%s" were added successfully.'
+    language-installed: 'Language "%s" is already installed.'
+    languages-installed: 'Languages "%s" are already installed.'

@@ -10,12 +10,12 @@ messages:
     description: Description
     group: Groupe
     type: 'Type de test'
-    success: 'La console a été mise à jour dans sa dernière version.'
     missing-dependency: 'Dépendance manquante'
     methods: 'Méthodes de test'
     not-found: 'Debug est introuvable. Essayez de mettre l''id du test entre guillemets.'
     success-groups: 'Tous les groupes de tests ont été listés avec succès, utilisez le groupe en argument pour filter les tests unitaires par groupe, par exemple : $ drupal test:debug Url'
     success-group: 'Tous les tests unitaires du groupe "%s" ont été listés avec succès'
+    success: 'La console a été mise à jour dans sa dernière version.'
     id: 'ID du test unitaire'
 examples:
     -

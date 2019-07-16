@@ -1,6 +1,6 @@
 options:
     env: 'Nom de l''environnement.'
-    no-debug: 'Désactive le mode "debug".'
+    debug: 'Switches on debug mode'
     learning: 'Affiche plus d''informations.'
     generate-chain: 'Affiche les commandes ainsi que leurs paramètres sous le format yaml pour être réutilisé dans une commande chaînée'
     generate-inline: 'Affiche les commandes ainsi que leurs paramètres sur une ligne pour une réutilisation future'
@@ -17,6 +17,7 @@ options:
     no-ansi: 'Désactiver la sortie ANSI'
     no-interaction: 'Ne poser aucune question interactive'
     check-fix: 'Tenter de réparer toute configuration manquante.'
+    no-debug: 'Désactive le mode "debug".'
 arguments:
     command: 'La commande à exécuter'
 messages:
@@ -29,6 +30,8 @@ messages:
     files:
         generated: 'Fichiers générés ou mis à jour'
         copied: 'Fichiers copiés'
+    lines-code: 'Generated lines: %s'
+    path: 'Generation path'
     learning:
         route: "Afin de créer des pages, il est nécessaire de définir des routes.\nUne route mappe un chemin d'URL à un contrôleur. Elle définit quelle fonction\nou méthode sera appelée quand cette URL est appelée.\nSi l'utilisateur accède http://drupal8.dev/{{ route }}, le routage\nsystème va chercher un itinéraire pour ce chemin. Dans ce cas, il va chercher une\ncorrespondance, et exécuter l'appel _controller. La fonction de rappel est\ndéfinie comme un nom de classe\n(\"\\Drupal\\{{ module }}\\Controller\\{{ class_name }}\")\net la méthode (\"{{ method_name }}\")."
     autocomplete: "Bash ou Zsh : Ajouter cette ligne à votre fichier de configuration :\n<info>source \"$HOME/.console/console.rc\" 2>/dev/null</info>\n\nFish : Créez un lien symbolique \n<info>ln -s ~/.console/drupal.fish ~/.config/fish/completions/drupal.fish</info>\n"
@@ -40,6 +43,9 @@ messages:
 errors:
     invalid-command: 'La commande "%s" n''est pas un nom de commande valide.'
     renamed-command: 'Command "%s" was renamed, use "%s" instead.'
+    drush-command: 'Command "%s" is a Drush command (deprecated). Drupal Console equivalent "%s" was executed instead.'
+    statistics-failed: "The Drupal console failed to send statistics. After 10 attempts, this feature was disabled.\nIf you want to enable it again, use the following command:\n\n<info>drupal settings:set statistics.enabled true</info>\n"
+    statistics-url-failed: "The Drupal console failed to send statistics.\nYou must configure it in the global config.yml, use the following command and choose your preference:\n\n<info>drupal init</info>"
 site:
     messages:
         path: 'Chemin du site'
@@ -69,10 +75,10 @@ gitbook:
         note-description: 'Les commandes Drupal Console commands *doivent*  être executées depuis la racine d'' une installation Drupal 8'
         command: 'Commande Drupal Console'
         command_description: 'The **"%s"** command "%s"'
-        usage: 'Utilisation'
+        usage: Utilisation
         options: 'Options disponibles'
         option: Option
-        details: 'Détails'
+        details: Détails
         arguments: 'Paramètres disponibles'
         argument: Paramètre
         examples: Exemples

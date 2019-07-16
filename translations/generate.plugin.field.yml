@@ -31,6 +31,8 @@ questions:
     field-type: 'Entrez le type de champ avec lequel les plugins de formateur et de widget peuvent être utilisés'
     default-widget: 'Entrez le widget de champ par défaut du plugin de type de champ'
     default-formatter: 'Entrez le formateur de champ par défaut du plugin de type de champ'
+suggestions:
+    my-field-type: 'My Field Type'
 examples:
     -
         description: 'Generate field type, widget and formatter plugins specifying the module name, the type (class, label, plugin id and description), the formatter (class, label, plugin id) and the widget (class, label and plugin id)'

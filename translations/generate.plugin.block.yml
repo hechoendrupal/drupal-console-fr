@@ -4,19 +4,27 @@ welcome: 'Bienvenue au générateur de plugin de bloc'
 options:
     module: common.options.module
     class: 'Nom de la classe plugin'
-    label: 'Label du plugin'
+    plugin-label: 'Plugin label'
     plugin-id: 'Id du plugin'
     inputs: common.options.inputs
     services: common.options.services
     theme-region: 'Région du thème où placer le plugin de bloc'
+    twigtemplate: 'Generate theme template'
+    label: 'Label du plugin'
 questions:
     module: common.questions.module
     class: 'Entrez le nom de la classe du plugin'
-    label: 'Entrez le label du plugin'
+    plugin-label: 'Enter the plugin label'
     plugin-id: 'Entrez l''id du plugin'
-    inputs: common.questions.inputs
     services: common.questions.services
     theme-region: 'Enter the theme region to render the Plugin Block.'
+    type: 'Enter New field type'
+    label: 'Entrez le label du plugin'
+    description: Description
+    default-value: 'Default value'
+    weight: 'Weight for input item'
+    twigtemplate: 'Do you want to generate a themeable template?'
+    inputs: common.questions.inputs
 messages:
     inputs: "\nVous pouvez ajouter des champs d'entrée pour créer des configurations spéciales dans chaque bloc.\nCette option est facultative, appuyez sur <info>Entrée</ info> pour <info>continuer</ info>"
     invalid-theme-region: 'La région "%s" n''est pas valide'
