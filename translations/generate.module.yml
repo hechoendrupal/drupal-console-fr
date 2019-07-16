@@ -30,6 +30,8 @@ questions:
     test: 'Voulez-vous générer une classe de test unitaire'
     twigtemplate: 'Do you want to generate a themeable template'
     controller: 'Voulez-vous générer un contrôleur par défaut'
+suggestions:
+    my-awesome-module: 'My Awesome Module'
 warnings:
     module-unavailable: 'Attention, les modules suivants ne sont pas disponible dans votre installation locale : "%s"'
 errors:

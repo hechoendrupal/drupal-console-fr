@@ -5,6 +5,7 @@ options:
     latest: 'Valeur par défaut qui télécharge la version la plus récente'
     path: 'Le chemin du projet contrib'
     composer: 'Option pour signaler que le module sera téléchargé, géré et installé via Composer'
+    unstable: 'Module unstable'
     version: 'Version du module version. Par exemple 1.x-dev'
 questions:
     path: 'Entrer le chemin du projet contrib'

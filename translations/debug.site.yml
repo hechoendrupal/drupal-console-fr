@@ -4,10 +4,12 @@ messages:
     site: Site
     host: Serveur
     root: Racine
-    not-sites: 'No sites defined'
+    invalid-sites: 'No sites defined.'
+    invalid-sites-using: "Using a site alias requires local configuration, more info at:\n   https://docs.drupalconsole.com/en/alias/using-site-alias.html\n"
     invalid-site: 'Invalid site name'
     private-key: 'Erreur avec la clé privée'
     connect-error: 'Erreur de connexion avec la machine distante'
+    not-sites: 'No sites defined'
     directory-not-found: 'Dossier local de sites introuvable'
 options:
     target: Target

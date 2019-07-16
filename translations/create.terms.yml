@@ -16,6 +16,7 @@ messages:
     name: Nom
     invalid-vocabularies: 'Vocabulaire(s) "%s" non valide(s)'
     created-terms: 'Génération de "%s" termes avec succès'
+    error: 'Error creating terms: "%s"'
 examples:
     -
         description: 'Provide the vocabulary term name.'

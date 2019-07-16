@@ -1,7 +1,18 @@
 description: 'Génère une implémentation de hook_form_alter() ou de hook_form_FORM_ID_alter'
 help: 'La commande <info>"%s"</info> permet de générer un nouveau "%s"'
+welcome: 'Welcome to the Drupal Form Alter generator'
 options:
+    module: 'The Module name.'
     form-id: 'ID du formulaire à altérer'
+    inputs: 'Create inputs in a form.'
+questions:
+    module: 'Enter the module name'
+    form-id: 'Enter the Form ID to alter'
+    type: 'Enter New field type'
+    label: 'Input label'
+    description: Description
+    default-value: 'Default value'
+    weight: 'Weight for input item'
 messages:
     inputs: "Vous pouvez ajouter des champs de formulaire pour modifier le formulaire.\nC''est optionnel, pressez <info>Entrée</info> pour <info>continuer</info>"
     loading-forms: 'Charger des définitions de formulaires depuis le module Webprofiler'

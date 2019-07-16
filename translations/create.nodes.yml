@@ -7,6 +7,7 @@ options:
     limit: 'Combien de nœuds voulez-vous générer'
     title-words: 'Nombre de mots maximum des titres'
     time-range: 'De combien de temps au maximum doivent dater les nœuds générés'
+    revision: 'Create revisions'
 questions:
     content-type: 'Sélectionnez le(s) type(s) de contenu à utiliser lors de la génération des nœuds'
     limit: 'Entrez le nombre de nœuds que vous souhaitez générer'
@@ -19,6 +20,7 @@ questions:
         - 'Une semaine'
         - 'Un mois'
         - 'Un an'
+    revision: 'Do you want to add revisions?'
 messages:
     node-id: 'Identifiant du nœud'
     content-type: 'Type de contenu'
@@ -26,6 +28,7 @@ messages:
     created: 'Date de création'
     invalid-content-types: 'Les types de contenu "%s" ne sont pas valides'
     created-nodes: '"%s" nœuds crées avec succès'
+    error: 'Error creating nodes: "%s"'
     generated-content: 'Génération de "%s" nœuds avec succès'
 examples:
     -

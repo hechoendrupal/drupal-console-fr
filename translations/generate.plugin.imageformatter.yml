@@ -1,5 +1,6 @@
 description: 'Génère un plugin de formateur d''image.'
 help: 'La commande <info>generate:plugin:imageformatter</info> vous permet de générer un nouveau plugin de formateur d''image.'
+welcome: 'Welcome to the Drupal Image Formatter Plugin generator'
 options:
     module: common.options.module
     class: 'Nom de la classe du plugin'

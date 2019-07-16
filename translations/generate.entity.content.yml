@@ -1,11 +1,14 @@
 description: 'Génère une nouvelle entité de contenu'
 help: ''
+welcome: 'Welcome to the Drupal Content Entity generator'
 options:
     module: common.options.module
     entity-class: 'La classe de l''entité de contenu'
     entity-name: 'Le nom de l''entité'
     label: 'Le libellé'
     has-bundles: 'Est-ce que l''entité possède des bundles'
+    has-forms: 'Entity has forms'
+    has-owner: 'Entity has owner'
     base-path: 'Le chemin de base des routes de l''entité de contenu'
     is-translatable: 'Entité de contenu traduisible'
 questions:
@@ -14,6 +17,8 @@ questions:
     entity-name: 'Entrez le nom de votre nouvelle entité de contenu'
     label: 'Entrez le libellé de votre nouvelle entité de contenu'
     has-bundles: 'Voulez-vous que cette entité possède des bundles'
+    has-forms: 'Do you want this (content) entity to have forms?'
+    has-owner: 'Do you want this (content) entity to have an owner?'
     base-path: 'Entrez le chemin de base pour les routes de l''entité de contenu'
     is-translatable: 'Est-ce que votre entité est traduisible'
     revisionable: 'Is your entity revisionable'

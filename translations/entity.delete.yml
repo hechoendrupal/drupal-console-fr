@@ -3,12 +3,16 @@ help: 'La commande <info>entity:delete</info> vous permet de supprimer des entit
 arguments:
     entity-definition-id: 'Id de la définition de l''entité'
     entity-id: 'ID de l''entité à supprimer'
+options:
+    all: 'Delete all entities of the given type.'
 questions:
     entity-type: 'Entrez le type d''entité'
     entity-definition-id: 'Entrez l''id de la définition de l''entité'
     entity-id: 'Entrez l''ID de l''entité à supprimer'
 messages:
+    confirm-delete-all: 'Do you want to delete all entities of type "%s" ("%d")?'
     deleted: 'L'' entité %s avec l'' id %s a été supprimée avec succès'
+    deleted-all: 'All entities of type "%s" ("%d") were deleted.'
 examples:
     -
         description: 'Delete entity type content using node id'

@@ -4,6 +4,8 @@ options:
     tar: 'If set, the configuration will be exported to an archive file.'
     remove-uuid: 'If set, the configuration will be exported without uuid key.'
     remove-config-hash: 'If set, the configuration will be exported without the default site hash key.'
+questions:
+    directory: 'Enter the directory name to save the configuration files.'
 messages:
     directory: 'Votre exportation de configuration a été sauvegardée dans "%s"'
     error: 'Une erreur s''est produite lors de la création de votre dossier dans "%s"'

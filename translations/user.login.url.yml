@@ -1,11 +1,17 @@
 description: 'Retourne une url de connection à validité unique pour un utilisateur.'
 options:
+    user: 'User name/id.'
     user-id: 'Identifiant de l''utilisateur'
 messages:
     url: 'Url de connection à validité unique pour "%s" : "%s"'
+questions:
+    user: 'Enter User name/id'
 errors:
     invalid-user: 'Impossible de charger l''utilisateur (UID : "%s").'
 examples:
     -
         description: 'Get one time login url for user id 1'
         execution: "drupal user:login:url  1\n"
+    -
+        description: 'Get one time login url for username jmolivas'
+        execution: 'drupal user:login:url jmolivas'
